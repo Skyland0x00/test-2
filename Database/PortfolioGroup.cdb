@@ -1,0 +1,6 @@
+Version: "1"
+Entity: "PortfolioGroup"
+Columns: "ParentAccountId", "AccountId", "Ratio"
+StartData
+"bybit btc", "CRYPTO02882", "1"
+EndData

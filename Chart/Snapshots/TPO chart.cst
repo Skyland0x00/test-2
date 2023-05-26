@@ -1,0 +1,983 @@
+{
+  "Value": {
+    "$type": "OFT.Platform.Settings.Charting.ChartSettings, OFT.Platform",
+    "ContractId": 4858,
+    "ScaleByLowerValue": false,
+    "ChartTraderIsEnabled": false,
+    "SelectedAccount": "DEMO0001223",
+    "Volume": 1.0,
+    "TIF": 0,
+    "TemplateType": "snapshot",
+    "IsContinious": false,
+    "PanelsIsHidden": false,
+    "DrawingObjectses": [],
+    "EndDate": "2000-01-01T00:00:00",
+    "Template": {
+      "TemplateType": "template",
+      "ScaleByLowerValue": false,
+      "ChartScale": 1,
+      "Panels": [
+        {
+          "IsNew": false,
+          "OldSettings": {
+            "$type": "Advanced_Time_And_Sales.Indicators.IndicatorsParameters.MarketProfiliesSettings, OFT.Controls",
+            "_maxLevelColor": "0, 0, 0",
+            "_valueAreaColor": "127, 127, 127",
+            "gridColor": "50, 128, 128, 128",
+            "_color": "89, 89, 89",
+            "_areaColor": "0, 255, 255, 255",
+            "_textcolor": "128, 128, 128",
+            "_linesColor": "139, 0, 0",
+            "PanelN": 0,
+            "Height": 60,
+            "_showLegend": true,
+            "IsSupportedSpreadCharts": false,
+            "IsSupportedRussianMarket": true,
+            "IsSupportedAmericanMarket": true,
+            "TPOMode": "both",
+            "Period": "daily",
+            "BeginTime": "08:30:00",
+            "EndTime": "15:15:00",
+            "ExtendLinesTillStartOfNextProfile": true,
+            "ShowLabelsOfFinishedLines": true,
+            "Type": "volume",
+            "ExtendLines": false,
+            "AutoProportion": true,
+            "CustomProportion": 0,
+            "Color": "#FF595959",
+            "ProfileOpacility": 0,
+            "BidColor": "#7DFF0000",
+            "AskColor": "#7D00FF00",
+            "ShowGrid": false,
+            "GridColor": "#32808080",
+            "AreaColor": "#00FFFFFF",
+            "AreaOpacility": 10,
+            "ShowValues": true,
+            "ValuesColor": "#FF808080",
+            "VisualizationMode": "bars",
+            "Gradient": false,
+            "ShowMaximumLevel": false,
+            "MaxLeveltype": "volume",
+            "ExtendMaximumLevel": false,
+            "LinesColor": "#FF8B0000",
+            "MaxLevelOpacility": 0,
+            "MaxLevelColor": "#FF000000",
+            "ShowMaxLevelValue": false,
+            "ShowMaxLevelDate": false,
+            "MaxLevelDescription": "POC",
+            "ShowValueArea": true,
+            "ExtendValueArea": false,
+            "ValueAreaVisualType": "area",
+            "ValueAreaColor": "#FF7F7F7F",
+            "ValueAreaOpacility": 0,
+            "ValueAreTextColor": "#FFADD8E6",
+            "VAHDescription": "Value area high",
+            "VALDescription": "Value area low",
+            "TPOChars": "ABCDEFGHIJKLMNPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+            "Scale": 1,
+            "MarkerLetters": "#FFFF00EA",
+            "TPOColorMode": "eachDifferent",
+            "Colors": [
+              "#FF7F7F7F",
+              "#FFABA99E",
+              "#FFF2F2F2",
+              "#FFD8D6CB",
+              "#FF7F7F7F",
+              "#FFA5A5A5"
+            ],
+            "MinimumLitterWidth": 10,
+            "DrawingMode": "litters",
+            "TimePeriod": 30,
+            "SplitPeriods": false,
+            "HighlightEveryOpen": false,
+            "HighlightColor": "#FFFF0000",
+            "HighlightEveryClose": false,
+            "HighlightCloseColor": "#FFFF0000",
+            "HotKeys": [
+              "S"
+            ],
+            "ShowTPOPoc": true,
+            "TPOPocColor": "#FF8B0000",
+            "ExtendTPOPoc": true,
+            "TPOPOCTextColor": "#FFADD8E6",
+            "TPOPOCDescription": "POC",
+            "ValueAreaVisualMode": "lines",
+            "TPOVAColor": "#FFA6A600",
+            "ExtendTPOValueArea": true,
+            "TPOValueAreTextColor": "#FFADD8E6",
+            "TPOVAHDescription": "VAH",
+            "TPOVALDescription": "VAL",
+            "ShowSinglePrints": true,
+            "ExtendSinglePrints": true,
+            "SinglePrintsColor": "#FFADD8E6",
+            "TPOSinglePrintsTextColor": "#FF000000",
+            "ShowInitialBalance": true,
+            "InitialBalanceStartPeriod": 1,
+            "InitialBalanceRange": 2,
+            "InitialBalanceColor": "#FFB45303",
+            "InitialBalanceWidth": 3,
+            "CandleMode": "none",
+            "CandleWidth": 16,
+            "Border": "#FF808080",
+            "BorderWidth": 3,
+            "UpCandleColor": "#FF00FF00",
+            "DnCandleColor": "#FF800000",
+            "ShowCumulativeVaues": true,
+            "CumulativeVauesLocation": "hide",
+            "SummaryTextColor": "#FFADD8E6",
+            "UseFilter": false,
+            "MinFilter": 0.0,
+            "MaxFilter": 0.0,
+            "FilterColor": "#58DC143C",
+            "FullLine": false,
+            "OnTop": true
+          },
+          "SerializedIndicators": [],
+          "Height": 60
+        }
+      ],
+      "Indicators": [],
+      "clusterSettings": {
+        "ClustersFormat": "{0:0.##}",
+        "Caption": "Cluster Settings",
+        "Volumes": "#FF808080",
+        "Bid": "#FFFF0000",
+        "Ask": "#FF008000",
+        "ClusterBorderWidth": 1,
+        "Foreground": "#FFCEC0C1",
+        "AutoSize": true,
+        "FontSize": 9.0,
+        "CutLongText": true,
+        "MinimumClusterWidthToShowText": 10,
+        "DigitsAfterComma": 2,
+        "ValueAreaColor": "#64C8D8FF",
+        "ShowValueArea": false,
+        "ImbalanceBid": "#FFFF0000",
+        "ImbalanceAsk": "#FF008000",
+        "MinimumImbalanceDifference": 0,
+        "IgnoreZeroValues": false,
+        "ImbalanceVolumeFilter": 0,
+        "ImbalanceRate": 150,
+        "ShowDirectionMarker": true,
+        "DirectionMakerWidth": 0,
+        "ClusterBorderPen": {
+          "Color": "#FF000000",
+          "LineDashStyle": "solid",
+          "Width": 1
+        },
+        "BorderColorByDirection": false,
+        "ClustersContentMode": "volume",
+        "ClustersMode": "fullRow",
+        "UseBorderOfEachPriceLevel": false,
+        "ColorScheme": "delta",
+        "ClusterBG": "#FF000000",
+        "VolumeColor": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": "#FF808080"
+        },
+        "BidColor": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": "#FFFF0000"
+        },
+        "AskColor": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": "#FF008000"
+        },
+        "HeatmapType": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 0
+        },
+        "UpperCutOff": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 20
+        },
+        "Contrast": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 0
+        },
+        "BorderType": "none",
+        "BorderColorByDirectionFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": false
+        },
+        "ClusterBorderPenFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": {
+            "Color": "#FF000000",
+            "LineDashStyle": 0,
+            "Width": 1
+          }
+        },
+        "ShowDirectionMarkerFilter": {
+          "EnabledVisible": true,
+          "Enabled": true,
+          "Value": 0
+        },
+        "Showtext": true,
+        "ForegroundFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": "#FFCEC0C1"
+        },
+        "AutoSizeFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": true
+        },
+        "FontSizeFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": 9.0
+        },
+        "Divider": 1.0,
+        "DigitsAfterCommaFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": 2
+        },
+        "CutLongTextFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": true
+        },
+        "MinimumClusterWidthToShowTextFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": 10
+        },
+        "MaxVolType": "volume",
+        "MaxVolColor": "#FFD1D2D4",
+        "MaxVolSelectionWidth": 1,
+        "MaxVolTextColor": "#FF000000",
+        "MaxLevelBold": true,
+        "ValueAreaColorFilter": {
+          "EnabledVisible": true,
+          "Enabled": false,
+          "Value": "#64C8D8FF"
+        },
+        "ProportionalMode": "visibleRegion",
+        "ProportionByAllBars": false,
+        "GradientRate": 100,
+        "CustomProportionValue": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 0.0
+        },
+        "CustomproportionVolume": 0.0,
+        "EnableBidAskImbalance": false,
+        "ImbalanceBidFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": "#FFFF0000"
+        },
+        "ImbalanceAskFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": "#FF008000"
+        },
+        "ImbalanceRateFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 150
+        },
+        "ImbalanceVolumeFilterInt": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 0
+        },
+        "MinimumImbalanceDifferenceFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 0
+        },
+        "IgnoreZeroValuesFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": false
+        },
+        "BoldFontForImbalances": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": false
+        },
+        "CustomRowHeight": {
+          "EnabledVisible": true,
+          "Enabled": false,
+          "Value": 16
+        },
+        "Filters": []
+      },
+      "colorsettings": {
+        "Caption": "Chart Color Settings",
+        "BackgroundBrushSettings": {
+          "StartColor": "#FF262626",
+          "EndColor": "#FFADD8E6",
+          "UseEndColor": false
+        },
+        "BackGround": "#FF262626",
+        "CrosshairPen": {
+          "Color": "#FF808080",
+          "LineDashStyle": "solid",
+          "Width": 1
+        },
+        "StateColor": "#FFCFA246",
+        "TextHistogramColor": "#FFFFFFFF",
+        "PriceLinePen": {
+          "Color": "#3FFFFFFF",
+          "LineDashStyle": "solid",
+          "Width": 1
+        },
+        "ExtendPriceLine": false,
+        "GridPen": {
+          "Color": "#FF141414",
+          "LineDashStyle": "solid",
+          "Width": 1
+        },
+        "ShowVHorizontalGrid": false,
+        "CustomGridStep": 0,
+        "ShowVericalGrid": false,
+        "CustomVertGridStep": 0,
+        "NewSessionPen": {
+          "Color": "#00FFFFFF",
+          "LineDashStyle": "solid",
+          "Width": 1
+        },
+        "AxisColor": "#FF000000",
+        "AxisTextColor": "#FFFAEBD7",
+        "FontSize": 8,
+        "AxisCurrentBackColor": "#FFFAEBD7",
+        "AxisCurrentForeColor": "#FF000000",
+        "TimeFormat": "auto",
+        "HidePriceAxis": false,
+        "BuyColor": "#FF008000",
+        "SellColor": "#FFFF0000",
+        "DrawCandleBorder": true,
+        "CellBorderColor": "#FF6E6B6D",
+        "CandleBorderWidth": 1,
+        "BarsWidth": 1,
+        "DojiBarColor": "#FF000000",
+        "DownBarColor": "#FFFF0000",
+        "UpBarColor": "#FF008000",
+        "ShowOpenOfBar": true,
+        "ShowCloseOfBar": true,
+        "ChartLinePen": {
+          "Color": "#FF6D6C6C",
+          "LineDashStyle": "solid",
+          "Width": 2
+        },
+        "MountainLinePen": {
+          "Color": "#FF476B96",
+          "LineDashStyle": "solid",
+          "Width": 2
+        },
+        "MountainBrushSettings": {
+          "StartColor": "#FF093367",
+          "EndColor": "#649ACCFF",
+          "UseEndColor": false
+        },
+        "UseSessionTime": false,
+        "SessionStart": "00:00:00",
+        "SessionEnd": "23:59:59",
+        "PriceBorder": false,
+        "ShowIndicatorsValuesOnMouseOver": true,
+        "AutoTransFormCandles": true,
+        "CandleSizeTotransformToClusters": 20,
+        "HideClustersPanel": false,
+        "AutoTransformHorizontalLines": false,
+        "AutoTransformVerticalLines": false,
+        "PriceOffset": 100,
+        "ChartOffset": 30,
+        "UseSmoothing": true,
+        "MouseWheelBehavior": "zoom",
+        "KeepSelectedObjects": false,
+        "ObjectsSelectionDrawingColor": "30, 83, 228",
+        "ObjectsSelectionColor": "#FF1E53E4",
+        "Sensitivity": 0,
+        "RedrawInterval": 100,
+        "NewSessionLineColor": "#00FFFFFF",
+        "Сl_crosshair": "#FF808080",
+        "PriceLineColor": "#3FFFFFFF",
+        "GridColor": "#FF141414",
+        "HistogramLinesColor": "#C8ADD8E6",
+        "HistogramColor": "#FF808080",
+        "ShowCumulativeValues": true,
+        "BidColor": "#FFEA3035",
+        "AskColor": "#FF46E246",
+        "ValueAreaColor": "#FFC8D8FF",
+        "PocColor": "#FFC8D8FF",
+        "HistogramTextColor": "#FFFFFFFF",
+        "ExtendPoc": false,
+        "ExtendValueArea": false
+      },
+      "histogramInterval": "contract",
+      "typeHistogram": "bidAsk",
+      "ShowHistogram": false,
+      "ShowingDigital": false,
+      "UseOpacility": false,
+      "ShowTxtMouse": true,
+      "VisibleCrossHair": true,
+      "ShowValueArea": true,
+      "ShowPoc": true,
+      "AlwaysOnTop": false,
+      "BarsType": "hide",
+      "ClusterWidth": 4.3907657740291169457248778141,
+      "TypeCluster": "volume",
+      "RowHeight": 1.4438798163638897,
+      "ChangeHeightmanualy": true,
+      "PaintingMode": "drawCrossHair",
+      "TradingSettings": {
+        "PnLMode": "money",
+        "Caption": "",
+        "ShowText": true,
+        "OneClickMode": false,
+        "TradingMode": "autoDetection",
+        "StopMode": "stop",
+        "Slippage": 5,
+        "ShowTrades": "visible",
+        "Size": 6,
+        "TradesColor": "#FF000080",
+        "TradesSellColor": "#FFFF0000",
+        "ShowOrders": "visible",
+        "OrdersOffset": 115,
+        "LimitColors": "#FF87CEEB",
+        "StopColor": "#FFFFA0A2",
+        "OrderstextColor": "#FF000000",
+        "ShowPosition": "visible",
+        "PositionOffset": 115,
+        "PositionPositiveVolumeColors": "#FF00FF00",
+        "PositionNegativeVolumeColors": "#FFFF0000",
+        "PositionTextColors": "#FFFFFFFF",
+        "PositionBackGround": "#FF000000",
+        "PositionPositive": "#FF008000",
+        "PositionNegative": "#FFFF0000",
+        "ClosepositionColor": "#FF87CEEB"
+      },
+      "ClusterVisualizationType": "bidAskProfile",
+      "Version": 0
+    },
+    "TimeFrame": {
+      "Period": "timeFrame",
+      "PeriodParameters": {
+        "$type": "OFT.Controls.Chart.MinuteTimeFrame, OFT.Controls",
+        "TimeFrame": "m30",
+        "CustomTimeFrame": 1,
+        "Label": "@value",
+        "DefaultDaysToLoad": 10,
+        "VisualName": "M30"
+      },
+      "LoadCustomDaysCount": true,
+      "CustomDaysCount": 10,
+      "LoadCustomEndDate": false,
+      "CustomEndDate": "2018-08-31T10:35:36.6642228+07:00"
+    },
+    "Canvas": {
+      "Elements": [
+        {
+          "Name": "BuyMarketBtn",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 0.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 80.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "SellMarketBtn",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 90.0,
+          "Y": 0.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 80.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "BuyAskBtn",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 40.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 80.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "SellAskBtn",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 90.0,
+          "Y": 40.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 80.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "BuyBidBtn",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 80.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 80.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "SellBidBtn",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 90.0,
+          "Y": 80.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 80.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "CancelBidsBtn",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 120.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 80.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "CancelAsksBtn",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 90.0,
+          "Y": 120.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 80.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "CancelAllBtn",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 160.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 80.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "ReverseBtn",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 90.0,
+          "Y": 160.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 80.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "Close",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 200.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 170.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "bid",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 240.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 90.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "ask",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 90.0,
+          "Y": 240.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 90.0,
+          "Height": 35.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "PnL",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 274.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 170.0,
+          "Height": 25.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "Flat",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 299.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 90.0,
+          "Height": 25.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "Entry",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 90.0,
+          "Y": 299.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 80.0,
+          "Height": 25.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "AccountSettings",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 330.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 170.0,
+          "Height": 90.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "Strategies",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 421.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 170.0,
+          "Height": "NaN",
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "TradingFromChartSettings",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 489.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 170.0,
+          "Height": "NaN",
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "RoutesBorder",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 0.0,
+          "Y": 557.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 170.0,
+          "Height": "NaN",
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        }
+      ],
+      "ActualSize": "0,0"
+    },
+    "LinkedPanels": {
+      "$type": "System.String[], mscorlib",
+      "$values": []
+    },
+    "Width": 4.3907657740291169457248778141,
+    "TradingLoggerId": "f4b8e2f6-8a18-4176-a3fc-5aac301c28e6",
+    "StrategySettings": [],
+    "TraderSettings": {
+      "VolumeByCurrency": {},
+      "IsPercentMode": false,
+      "MarketOrderFlags": {},
+      "LimitOrderFlags": {},
+      "ConditionalMarketOrderFlags": {},
+      "ConditionalLimitOrderFlags": {}
+    }
+  },
+  "IsSystem": false
+}

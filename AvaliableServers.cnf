@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "73F7CE42620A4DE3B49ACEE4073765EB",
+    "ServerDescriptionId": 30,
+    "Name": "Auto",
+    "EndPoint": "142.132.201.231:6214",
+    "IsDefault": true,
+    "Type": "router"
+  },
+  {
+    "Id": "B1892576DD6D4CF88C2C152384B74274",
+    "ServerDescriptionId": 60,
+    "Name": "F2",
+    "EndPoint": "51.178.130.10:6450",
+    "IsDefault": false,
+    "Type": "auth"
+  },
+  {
+    "Id": "3EFC005E3334404E9125CBC6B17CB17C",
+    "ServerDescriptionId": 85,
+    "Name": "E2",
+    "EndPoint": "142.132.201.231:6450",
+    "IsDefault": false,
+    "Type": "auth"
+  },
+  {
+    "Id": "CD95BC2056274DFB8B009897801704EE",
+    "ServerDescriptionId": 96,
+    "Name": "R2",
+    "EndPoint": "65.21.32.251:6450",
+    "IsDefault": false,
+    "Type": "auth"
+  },
+  {
+    "Id": "34DF724E15174425BD8EB6C8B226384C",
+    "ServerDescriptionId": 100,
+    "Name": "T2",
+    "EndPoint": "135.181.115.236:6450",
+    "IsDefault": false,
+    "Type": "auth"
+  }
+]

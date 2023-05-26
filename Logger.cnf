@@ -1,0 +1,641 @@
+{
+  "LoggerId": "6030dc0a-aa65-4691-a693-5314e7b12d4e",
+  "LoggerName": "App",
+  "LoggingLevel": "info",
+  "ChildLoggerSources": [
+    {
+      "LoggerId": "4fa9183a-1662-4ae6-84fa-d9768f8a9147",
+      "LoggerName": "StatisticsA",
+      "LoggingLevel": "inherit",
+      "ChildLoggerSources": []
+    },
+    {
+      "LoggerId": "f7200399-9383-4996-b66c-7b1e54104509",
+      "LoggerName": "Server",
+      "LoggingLevel": "inherit",
+      "ChildLoggerSources": [
+        {
+          "LoggerId": "e9baba4e-3c8b-4044-9691-487f0d58b150",
+          "LoggerName": "Auth",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "99f77b81-6188-4a6b-9999-e2cec60c8d71",
+          "LoggerName": "Replay MD",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": [
+            {
+              "LoggerId": "a6b3eda3-0688-43e3-a333-d6936508dda1",
+              "LoggerName": "Cached MD",
+              "LoggingLevel": "inherit",
+              "ChildLoggerSources": [
+                {
+                  "LoggerId": "cedda36f-f9a1-481b-af46-011df992b37c",
+                  "LoggerName": "Connector MD",
+                  "LoggingLevel": "inherit",
+                  "ChildLoggerSources": [
+                    {
+                      "LoggerId": "f17a7803-1aa5-4f79-a7ab-55338e51258b",
+                      "LoggerName": "Server MD",
+                      "LoggingLevel": "inherit",
+                      "ChildLoggerSources": [
+                        {
+                          "LoggerId": "ca7d475c-98cd-4093-b90d-2a6692680dee",
+                          "LoggerName": "C3 EU",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "e2d3bb06-9b6a-433f-ac23-a3174b3c2d2d",
+                          "LoggerName": "T2 RU",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "fcdc58ba-9bc8-45bf-b6d1-ecb5f4f8e76e",
+                          "LoggerName": "T2 US",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "567cfb28-3b21-491a-b8e9-ec582f5fc8cf",
+                          "LoggerName": "T2 USS",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "ad749bd4-1514-47d3-87d2-f6430dabb725",
+                          "LoggerName": "C3",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "4a063e33-b1b9-4dc1-affb-56592a67d9d4",
+                          "LoggerName": "C3 Binance",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "19a6f3b1-f9d7-48f6-a2d1-b55c0715bc5a",
+                          "LoggerName": "C3 Binance futures",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "58588549-fb59-4d7e-9f79-c22b684aae4e",
+                          "LoggerName": "C3 Whitebit",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "29084c4e-a814-4c9c-9b46-4ab7159f79e1",
+                          "LoggerName": "C4 Okx",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "c6297ada-5ba5-42fa-98e9-d9be6d07dffe",
+                          "LoggerName": "E2 RU",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "303a2dcd-e30b-463d-a13d-08102a600fcc",
+                          "LoggerName": "E2 US",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "0e4ff09f-f856-4377-8f08-a216921e2f1a",
+                          "LoggerName": "E2 NYBOT",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "edfe3ce6-e444-4764-a057-0f90bdea802b",
+                          "LoggerName": "E2 USS",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "0ccb9ecb-ddc6-4bb5-8e89-ed3fbd128641",
+                          "LoggerName": "C6",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "0bfb037c-221b-4315-b837-7d5ac51b5cf2",
+                          "LoggerName": "C6 Binance",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "51420b74-393d-44eb-9728-b79e06eb66f5",
+                          "LoggerName": "C6 FTX",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "9fce1452-aa11-45e9-8e61-3f99f14785ce",
+                          "LoggerName": "C6 Bitget",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "b33181bc-1042-4723-afda-01eb8896257a",
+                          "LoggerName": "C6 Whitebit",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "5ba3b30e-1269-42a8-bd23-adcf275d698b",
+                          "LoggerName": "R2 RU",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "216d0991-42cd-47d3-8625-40a4fe46d735",
+                          "LoggerName": "R2 US",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "2735c538-16c5-45f8-b85c-46da2d7d7a7d",
+                          "LoggerName": "R2 USS",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "5bbcfb95-1768-4690-944d-575402e4eaa6",
+                          "LoggerName": "C7",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "d42c7e0f-ea85-4d2a-82f9-dd4712ecc554",
+                          "LoggerName": "C7 Binance",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "46b70884-43e9-4b32-99c8-b6e0b1879002",
+                          "LoggerName": "C7 Binance futures",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "ab03f489-3ccd-4749-aeb6-948f876434f3",
+                          "LoggerName": "C7 FTX",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "80daeb3c-c601-42ee-9e39-791b4bb88faf",
+                          "LoggerName": "C7 Bitget",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "af13d7a8-e64a-4439-bb64-c81e84090af8",
+                          "LoggerName": "C7 Okx",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "9de8e1db-cfae-475a-b17a-f18efe46eb8d",
+                          "LoggerName": "F2 RU",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "22001370-f16f-45ee-8996-1018f57bfc4b",
+                          "LoggerName": "F2 US",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "6bd70865-dcb4-4355-81df-9528b3823e48",
+                          "LoggerName": "F2 USS",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "6373dd77-5572-47a8-877e-90e056530eca",
+                          "LoggerName": "F2 NYBOT",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "34ad4516-7908-40ef-9d3d-3926fa753a48",
+                          "LoggerName": "C4",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "b1fcc01a-2265-450f-9d5b-e9943d383249",
+                          "LoggerName": "C4 Binance",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "7858d4d5-00aa-4871-9138-93192b54f0de",
+                          "LoggerName": "C4 Binance futures",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "99de735a-1c11-4073-9eca-8910a23a5257",
+                          "LoggerName": "C4 FTX",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "406f7d79-5173-4f6b-b5a6-654ed8f8dd02",
+                          "LoggerName": "C4 Bitget",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "a63b57fa-069f-410a-bf2e-816039cc83af",
+                          "LoggerName": "C7 depths",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "b1911286-63b0-42f3-8382-cb03f157ec4c",
+                          "LoggerName": "E2 US depths",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "3d748379-d3b0-4959-95cd-5ae9aa67d183",
+                          "LoggerName": "T2 RU depths",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "ec7b5f08-b5e9-498f-96b0-82541f3c3440",
+                          "LoggerName": "C5 depths",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "80a751ec-8286-46bc-8ce5-2956435efbae",
+                          "LoggerName": "E2 RU depths",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        },
+                        {
+                          "LoggerId": "d729c15b-8447-4d34-b595-b1c6d23606e9",
+                          "LoggerName": "R2 US depths",
+                          "LoggingLevel": "inherit",
+                          "ChildLoggerSources": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "LoggerId": "e94dc703-1c5a-418a-88b7-6641d8dbfea8",
+              "LoggerName": "Replay",
+              "LoggingLevel": "inherit",
+              "ChildLoggerSources": [
+                {
+                  "LoggerId": "2ad28526-0f6d-456c-ab17-28c35ce5c828",
+                  "LoggerName": "Queue",
+                  "LoggingLevel": "inherit",
+                  "ChildLoggerSources": []
+                },
+                {
+                  "LoggerId": "d19f314d-77cb-4c6f-b507-a8f2918d487d",
+                  "LoggerName": "Replay DS",
+                  "LoggingLevel": "inherit",
+                  "ChildLoggerSources": []
+                },
+                {
+                  "LoggerId": "74b3023c-7cf6-4b7e-aa81-33af02122883",
+                  "LoggerName": "Replay AUC",
+                  "LoggingLevel": "inherit",
+                  "ChildLoggerSources": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "LoggerId": "32a4544f-d019-40c1-bece-16065eb39427",
+      "LoggerName": "Database",
+      "LoggingLevel": "inherit",
+      "ChildLoggerSources": [
+        {
+          "LoggerId": "bb23eda7-0fdb-4760-bd9b-1ca11b7a3e97",
+          "LoggerName": "Working times",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "62df7ef3-0165-43d7-a781-9f869571121f",
+          "LoggerName": "Portfolio groups",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "c9f0fdd9-5f4f-4a86-8d3e-af0683d43349",
+          "LoggerName": "Exchanges",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "dbbf4835-315d-41a1-a678-93dec388720f",
+          "LoggerName": "Securities",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "52f60202-ccb9-46a9-b5d1-9924d99057af",
+          "LoggerName": "Portfolios",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "85605602-f608-4bda-a7c5-8ed1dbe131cd",
+          "LoggerName": "Instrument exchanges",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "d62ba8fb-2a4c-442d-b86f-3994323626ac",
+          "LoggerName": "Orders",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "220d420a-ace8-4bba-86f4-5a1c07ea74a9",
+          "LoggerName": "My trades",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "e6d79994-f064-41e8-9eef-0609c7f5a85e",
+          "LoggerName": "My trades history",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "4d221541-7345-4d28-98dd-43abecf728f0",
+          "LoggerName": "Positions",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        }
+      ]
+    },
+    {
+      "LoggerId": "99dce7f8-0fd1-4183-a317-46129d86fbab",
+      "LoggerName": "Strategies",
+      "LoggingLevel": "inherit",
+      "ChildLoggerSources": [
+        {
+          "LoggerId": "53e38cb7-4878-45ec-b8c5-20325c04344f",
+          "LoggerName": "ATM strategies",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "f59f8d17-027a-41c5-8896-e8d430354df7",
+          "LoggerName": "Chart strategies",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        }
+      ]
+    },
+    {
+      "LoggerId": "e9c5ec86-02a2-4138-9336-b28f8556961e",
+      "LoggerName": "Sounds player",
+      "LoggingLevel": "inherit",
+      "ChildLoggerSources": []
+    },
+    {
+      "LoggerId": "9865836e-5268-42e5-b592-4ce73c0d30f2",
+      "LoggerName": "Instruments",
+      "LoggingLevel": "inherit",
+      "ChildLoggerSources": []
+    },
+    {
+      "LoggerId": "6b1f2e9e-6dcf-4b6d-824a-20d27ae3e5c9",
+      "LoggerName": "Connectors",
+      "LoggingLevel": "inherit",
+      "ChildLoggerSources": [
+        {
+          "LoggerId": "3b4c5d75-d168-4cc7-af9c-89f42e2858ac",
+          "LoggerName": "Crypto data",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": [
+            {
+              "LoggerId": "ec0dc352-480a-4ade-b2f2-9a4870cc431b",
+              "LoggerName": "Queue",
+              "LoggingLevel": "inherit",
+              "ChildLoggerSources": []
+            }
+          ]
+        },
+        {
+          "LoggerId": "cb2c8ead-72dd-4a6d-86c3-5671043a4460",
+          "LoggerName": "Crypto Sim",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": [
+            {
+              "LoggerId": "a6ab9b38-e2f3-4403-8764-c07fe2a4dadd",
+              "LoggerName": "Queue",
+              "LoggingLevel": "inherit",
+              "ChildLoggerSources": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "LoggerId": "87e7a6ce-3ff1-4ed0-baa8-c175ae0c5462",
+      "LoggerName": "Trading Core",
+      "LoggingLevel": "inherit",
+      "ChildLoggerSources": []
+    },
+    {
+      "LoggerId": "ac8284d5-a658-4431-b514-92b1e8c5510e",
+      "LoggerName": "Alerts",
+      "LoggingLevel": "inherit",
+      "ChildLoggerSources": []
+    },
+    {
+      "LoggerId": "24f93a97-842e-467f-91cd-19232f87f01f",
+      "LoggerName": "Main window",
+      "LoggingLevel": "inherit",
+      "ChildLoggerSources": [
+        {
+          "LoggerId": "bd8dd87e-27c4-4e25-9c9e-810b22b2a313",
+          "LoggerName": "Child windows",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "e27a9e73-fa1a-4b99-b6e1-788ae2cd0dee",
+          "LoggerName": "Logs",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "e32484c2-1d0d-4dd8-a0f4-9e16364b2e89",
+          "LoggerName": "Portfolios",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "6ed048b7-8c22-44a7-9cdf-33e46ae88ea0",
+          "LoggerName": "Orders",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "a87ba6cd-3c3c-4a9a-8dde-0513cb682bb8",
+          "LoggerName": "My trades",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "90d08b6f-b3e5-4150-9276-4f8afe4af6fe",
+          "LoggerName": "Alerts",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "91ce666e-bbd0-4e62-b469-12ba9bf8da6e",
+          "LoggerName": "News",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "633052ae-095a-4e41-811c-089ce56fa193",
+          "LoggerName": "Layouts",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "9378d343-8295-4d1d-bca5-e37187b4d927",
+          "LoggerName": "Statistics",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "4abfeb1c-5ddf-4748-859c-3bc41aa70939",
+          "LoggerName": "Strategies",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "0461124a-0cef-43b7-b42b-03748ca4d554",
+          "LoggerName": "#=z2VhiJhRxaYUlEPxJkSXCu7ahF_trOdstzA==",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": []
+        },
+        {
+          "LoggerId": "77851587-227d-4ccd-8977-39422e250f1a",
+          "LoggerName": "Workspace",
+          "LoggingLevel": "inherit",
+          "ChildLoggerSources": [
+            {
+              "LoggerId": "a335de30-cf4d-47dd-b983-29e8aad54272",
+              "LoggerName": "Watchlist",
+              "LoggingLevel": "inherit",
+              "ChildLoggerSources": []
+            },
+            {
+              "LoggerId": "1c97f2e3-6d06-4c46-b3a9-c5a8b3f7f720",
+              "LoggerName": "Bid/Ask Tape",
+              "LoggingLevel": "inherit",
+              "ChildLoggerSources": []
+            },
+            {
+              "LoggerId": "9f7d6113-cd80-4ad0-822d-6e1f81afbf30",
+              "LoggerName": "Smart DOM",
+              "LoggingLevel": "inherit",
+              "ChildLoggerSources": []
+            },
+            {
+              "LoggerId": "47247622-3fdc-479d-9ef1-58250efc3a61",
+              "LoggerName": "All prices",
+              "LoggingLevel": "inherit",
+              "ChildLoggerSources": []
+            },
+            {
+              "LoggerId": "c966eedb-bc13-4855-ac07-8ec5368a2385",
+              "LoggerName": "Smart Tape",
+              "LoggingLevel": "inherit",
+              "ChildLoggerSources": []
+            },
+            {
+              "LoggerId": "63349372-b53e-4290-982e-b956b9d4af2f",
+              "LoggerName": "Chart",
+              "LoggingLevel": "inherit",
+              "ChildLoggerSources": [
+                {
+                  "LoggerId": "41aa5b00-c0bd-4a89-a1fd-489e1f4bb444",
+                  "LoggerName": "BTCUSDT M5 chart",
+                  "LoggingLevel": "inherit",
+                  "ChildLoggerSources": [
+                    {
+                      "LoggerId": "23f40cc7-f152-4328-85c1-22d25585a447",
+                      "LoggerName": "ChartData",
+                      "LoggingLevel": "inherit",
+                      "ChildLoggerSources": []
+                    },
+                    {
+                      "LoggerId": "09c70221-7e16-4217-b483-6e3016a8adc3",
+                      "LoggerName": "ChartCore",
+                      "LoggingLevel": "inherit",
+                      "ChildLoggerSources": []
+                    },
+                    {
+                      "LoggerId": "4a5a29ba-ffa4-46a8-9110-25f9f8928d6d",
+                      "LoggerName": "Trading manager",
+                      "LoggingLevel": "inherit",
+                      "ChildLoggerSources": []
+                    }
+                  ]
+                },
+                {
+                  "LoggerId": "d28d36ad-89e9-4862-b31d-ab7dd2affa7d",
+                  "LoggerName": "BTCUSD M5 chart",
+                  "LoggingLevel": "inherit",
+                  "ChildLoggerSources": [
+                    {
+                      "LoggerId": "53f26c05-667f-4f05-a915-ecc21f746073",
+                      "LoggerName": "ChartData",
+                      "LoggingLevel": "inherit",
+                      "ChildLoggerSources": []
+                    },
+                    {
+                      "LoggerId": "27134884-e37c-4684-86d4-c87698303dc7",
+                      "LoggerName": "ChartCore",
+                      "LoggingLevel": "inherit",
+                      "ChildLoggerSources": []
+                    },
+                    {
+                      "LoggerId": "5ea0304d-5131-48f6-90f7-f1cec2d934e2",
+                      "LoggerName": "Trading manager",
+                      "LoggingLevel": "inherit",
+                      "ChildLoggerSources": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

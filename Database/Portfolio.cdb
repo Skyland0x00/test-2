@@ -1,0 +1,7 @@
+Version: "1"
+Entity: "Portfolio"
+Columns: "AccountID", "Currency", "Balance", "BlockedMargin", "Leverage", "BalancePower", "OpenPnL", "ClosedPnL", "TotalClosedPnL", "MaxEquityValue", "IsLocked", "IsSuspended", "TradingOptionsId", "CommissionState", "ClosedPnlDate", "IsRealAccount", "UserId", "ProcessedTradeTime"
+StartData
+"CRYPTO02882", "USDT", "100181.3", "0", "10", "100181.3", "0", "0", "0", "0", "False", "False", , , "", "False", "0", 
+"bybit btc", "USD", "0", "0", "1", "0", "0", "0", "0", "0", "False", "False", , , "", "False", "0", 
+EndData

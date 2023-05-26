@@ -1,0 +1,160 @@
+{
+  "Value": {
+    "$type": "OFT.Platform.Settings.SmartTape.SmartTapeSettings, OFT.Platform",
+    "Interval": "00:00:00.1000000",
+    "FiltersSettings": {
+      "ShowCumulativeTicks": false,
+      "MinFilter": 0.0,
+      "MaxFilter": 0.0,
+      "MinPrintFilter": 0.0,
+      "MaxPrintFilter": 0.0,
+      "MinAsk": 0.0,
+      "MinBid": 0.0
+    },
+    "ColorSettings": {
+      "ShowBuySell": true,
+      "BuySellWidth": 10,
+      "FontSize": 12.0,
+      "SpeedColor": "#FF6495ED",
+      "HeaderColor": "#00000000",
+      "HeaderTextColor": "#00000000",
+      "AboveAskBelowBid": "#FF1D1D70",
+      "Background": "#FF000000",
+      "Background2": "#FF141414",
+      "BuyColor": "#FF00B2FF",
+      "SellColor": "#FFFF3636",
+      "BetweenColor": "#FF808080",
+      "PriceDigits": 10,
+      "DigitsAfterComma": 2,
+      "ShowMilliseconds": false,
+      "RowsHeight": 16.0,
+      "ShowLevel1": false,
+      "SpeedInterval": 0,
+      "BuySellInterval": 20,
+      "ShowCurrentLevel1": true,
+      "Level1Color": "#FF808080"
+    },
+    "DisabledMarkets": [],
+    "AlertSettings": {
+      "AFilterType": "best_BidAsk",
+      "MinFilter": 0.0,
+      "MaxFilter": 0.0,
+      "CumTradesColor": "#FF2C2C60",
+      "HighlightFullRow": false,
+      "XEnableSoundCumTrades": false,
+      "ZSoundFile": "Alert1",
+      "AFilterType2": "cumulativeTrade",
+      "MinFilter2": 0.0,
+      "MaxFilter2": 0.0,
+      "CumTradesColor2": "#FF50582D",
+      "HighlightFullRow2": false,
+      "XEnableSoundCumTrades2": true,
+      "ZSoundFile2": "Alert2",
+      "AFilterType3": "cumulativeTrade",
+      "MinFilter3": 0.0,
+      "MaxFilter3": 0.0,
+      "CumTradesColor3": "#FF6C3C5A",
+      "HighlightFullRow3": false,
+      "XEnableSoundCumTrades3": true,
+      "ZSoundFile3": "Alert3",
+      "AFilterType4": "cumulativeTrade",
+      "MinFilter4": 0.0,
+      "MaxFilter4": 0.0,
+      "CumTradesColor4": "#FF39635A",
+      "HighlightFullRow4": false,
+      "XEnableSoundCumTrades4": true,
+      "ZSoundFile4": "Alert4"
+    },
+    "IsFreezed": false,
+    "Columns": {
+      "$type": "Utils.Xaml.ExtendedListView.ListViewColumnSettings[], Utils.Xaml",
+      "$values": [
+        {
+          "Id": "Time",
+          "Width": 30.0,
+          "Order": 0,
+          "IsVisible": true
+        },
+        {
+          "Id": "Price",
+          "Width": 30.0,
+          "Order": 1,
+          "IsVisible": true
+        },
+        {
+          "Id": "PlusMinus",
+          "Width": 30.0,
+          "Order": 2,
+          "IsVisible": true
+        },
+        {
+          "Id": "Volume",
+          "Width": 30.0,
+          "Order": 3,
+          "IsVisible": true
+        },
+        {
+          "Id": "Bid",
+          "Width": 30.0,
+          "Order": 4,
+          "IsVisible": true
+        },
+        {
+          "Id": "Ask",
+          "Width": 30.0,
+          "Order": 5,
+          "IsVisible": true
+        },
+        {
+          "Id": "Sizes",
+          "Width": 30.0,
+          "Order": 6,
+          "IsVisible": true
+        },
+        {
+          "Id": "Avg",
+          "Width": 30.0,
+          "Order": 7,
+          "IsVisible": true
+        },
+        {
+          "Id": "Mm",
+          "Width": 30.0,
+          "Order": 8,
+          "IsVisible": false
+        },
+        {
+          "Id": "Oi",
+          "Width": 30.0,
+          "Order": 9,
+          "IsVisible": false
+        },
+        {
+          "Id": "DeltaOi",
+          "Width": 30.0,
+          "Order": 10,
+          "IsVisible": false
+        },
+        {
+          "Id": "VolumeOI",
+          "Width": 30.0,
+          "Order": 11,
+          "IsVisible": false
+        },
+        {
+          "Id": "Speed",
+          "Width": 10.0,
+          "Order": 12,
+          "IsVisible": true
+        },
+        {
+          "Id": "BuySell",
+          "Width": 10.0,
+          "Order": 13,
+          "IsVisible": true
+        }
+      ]
+    }
+  },
+  "IsSystem": false
+}

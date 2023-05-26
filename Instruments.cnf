@@ -1,0 +1,55 @@
+{
+  "FavoriteContracts": [
+    {
+      "ContractId": 9348,
+      "Order": 0
+    },
+    {
+      "ContractId": 1621,
+      "Order": 1
+    },
+    {
+      "ContractId": 14497,
+      "ContractIdentifier": {
+        "AtasId": 14497
+      },
+      "Order": 2
+    },
+    {
+      "ContractId": 20752,
+      "ContractIdentifier": {
+        "AtasId": 20752
+      },
+      "Order": 3
+    },
+    {
+      "ContractId": 20985,
+      "ContractIdentifier": {
+        "AtasId": 20985
+      },
+      "Order": 4
+    },
+    {
+      "ContractId": 1859,
+      "ContractIdentifier": {
+        "AtasId": 1859
+      },
+      "Order": 5
+    },
+    {
+      "ContractId": 14493,
+      "ContractIdentifier": {
+        "AtasId": 14493
+      },
+      "Order": 6
+    },
+    {
+      "ContractId": 14499,
+      "ContractIdentifier": {
+        "AtasId": 14499
+      },
+      "Order": 7
+    }
+  ],
+  "FavoritesGridSettings": "<XtraSerializer version=\"1.0\" application=\"GridControl\">\r\n  <property name=\"#LayoutVersion\">1.3</property>\r\n  <property name=\"$GridControl\" iskey=\"true\" value=\"GridControl\">\r\n    <property name=\"UseFieldNameForSerialization\">true</property>\r\n    <property name=\"GroupCount\">0</property>\r\n    <property name=\"GroupSummary\" iskey=\"true\" value=\"0\" />\r\n    <property name=\"SortInfo\" iskey=\"true\" value=\"0\" />\r\n    <property name=\"Columns\" iskey=\"true\" value=\"5\">\r\n      <property name=\"Item1\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"GridRow\">0</property>\r\n        <property name=\"FieldName\">IsChecked</property>\r\n        <property name=\"Name\">IsChecked</property>\r\n        <property name=\"Visible\">false</property>\r\n        <property name=\"VisibleIndex\">0</property>\r\n        <property name=\"Width\">22</property>\r\n        <property name=\"ActualWidth\">22</property>\r\n      </property>\r\n      <property name=\"Item2\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"GridRow\">0</property>\r\n        <property name=\"FieldName\">RowData.Row</property>\r\n        <property name=\"Name\">Icon</property>\r\n        <property name=\"VisibleIndex\">1</property>\r\n        <property name=\"Width\">22</property>\r\n        <property name=\"ActualWidth\">22</property>\r\n      </property>\r\n      <property name=\"Item3\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"GridRow\">0</property>\r\n        <property name=\"FieldName\">Code</property>\r\n        <property name=\"Name\">ContractCode</property>\r\n        <property name=\"VisibleIndex\">2</property>\r\n        <property name=\"Width\">*</property>\r\n        <property name=\"ActualWidth\">140.33333333333334</property>\r\n      </property>\r\n      <property name=\"Item4\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"GridRow\">0</property>\r\n        <property name=\"FieldName\">RowData.Row.Name</property>\r\n        <property name=\"Name\">ContractName</property>\r\n        <property name=\"VisibleIndex\">3</property>\r\n        <property name=\"Width\">*</property>\r\n        <property name=\"ActualWidth\">140.33333333333334</property>\r\n      </property>\r\n      <property name=\"Item5\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"GridRow\">0</property>\r\n        <property name=\"FieldName\">GroupName</property>\r\n        <property name=\"Name\">GroupName</property>\r\n        <property name=\"VisibleIndex\">4</property>\r\n        <property name=\"Width\">*</property>\r\n        <property name=\"ActualWidth\">140.33333333333334</property>\r\n      </property>\r\n    </property>\r\n    <property name=\"View\" isnull=\"true\" iskey=\"true\">\r\n      <property name=\"FormatConditions\" iskey=\"true\" value=\"0\" />\r\n      <property name=\"ColumnChooserState\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"Location\">240,221</property>\r\n        <property name=\"Size\">220,250</property>\r\n      </property>\r\n      <property name=\"ActualShowSearchPanel\">false</property>\r\n    </property>\r\n    <property name=\"TotalSummary\" iskey=\"true\" value=\"0\" />\r\n    <property name=\"MRUFilters\" iskey=\"true\" value=\"0\" />\r\n    <property name=\"MRUFilterList\" iskey=\"true\" value=\"0\" />\r\n    <property name=\"GroupSummarySortInfo\" iskey=\"true\" value=\"0\" />\r\n  </property>\r\n</XtraSerializer>"
+}

@@ -1,0 +1,16 @@
+{
+  "IsEnabledNotification": true,
+  "IsEnabledSounds": true,
+  "IsReceiveAllLayouts": true,
+  "ExternalNotifiers": [
+    {
+      "$type": "OFT.Platform.Settings.Alerts.TelegramAlertNotifierSettings, OFT.Platform",
+      "IsEnabled": false
+    },
+    {
+      "$type": "OFT.Platform.Settings.Alerts.EmailAlertNotifierSettings, OFT.Platform",
+      "EnableSsl": false,
+      "IsEnabled": false
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "Indicators": [
+    "LeftCtrl",
+    "I"
+  ],
+  "Properties": [
+    "LeftCtrl",
+    "S"
+  ],
+  "PageUp": [
+    "PageUp"
+  ],
+  "PageDown": [
+    "Next"
+  ],
+  "Fullscreen": [
+    "LeftCtrl",
+    "DoubleLeftButton"
+  ],
+  "ClusterZoomMode": [
+    "M"
+  ],
+  "ResetLayout": [
+    "LeftCtrl",
+    "R"
+  ],
+  "TradingChart": [
+    "Space"
+  ],
+  "ChartTrader": [
+    "T"
+  ],
+  "AddGlobalHorLine": [
+    "F4"
+  ],
+  "AddTrendLine": [
+    "F2"
+  ],
+  "AddVerticalLine": [
+    "F7"
+  ],
+  "AddHorizontalLine": [
+    "F6"
+  ],
+  "AddFibonacci": [
+    "F8"
+  ],
+  "AddRuler": [
+    "F9"
+  ],
+  "AddTriangle": [
+    "F11"
+  ],
+  "AddRectangle": [
+    "F12"
+  ],
+  "AddMarketProfile": [
+    "F3"
+  ],
+  "AddFixedMarketProfile": [
+    "LeftCtrl",
+    "F3"
+  ],
+  "AddText": [
+    "LeftCtrl",
+    "LeftShift",
+    "T"
+  ],
+  "AddLabel": [
+    "LeftCtrl",
+    "LeftShift",
+    "L"
+  ],
+  "AddRightLabel": [
+    "LeftCtrl",
+    "LeftShift",
+    "D"
+  ],
+  "AddLeftLabel": [
+    "LeftCtrl",
+    "LeftShift",
+    "A"
+  ],
+  "AddDot": [
+    "LeftCtrl",
+    "LeftShift",
+    "N"
+  ],
+  "AddDiamond": [
+    "LeftCtrl",
+    "LeftShift",
+    "Q"
+  ],
+  "AddSquare": [
+    "LeftCtrl",
+    "LeftShift",
+    "E"
+  ],
+  "AddUpArrow": [
+    "LeftCtrl",
+    "LeftShift",
+    "W"
+  ],
+  "AddDownArrow": [
+    "LeftCtrl",
+    "LeftShift",
+    "S"
+  ],
+  "DelSelected": [
+    "Delete"
+  ],
+  "DeleteAll": [
+    "LeftCtrl",
+    "Delete"
+  ],
+  "CopyAll": [
+    "LeftCtrl",
+    "LeftShift",
+    "C"
+  ],
+  "CopySelected": [
+    "LeftCtrl",
+    "C"
+  ],
+  "Paste": [
+    "LeftCtrl",
+    "V"
+  ],
+  "SelectAll": [
+    "LeftCtrl",
+    "A"
+  ],
+  "Undo": [
+    "LeftCtrl",
+    "Z"
+  ],
+  "HideAllDrawingObjects": [
+    "LeftCtrl",
+    "H"
+  ],
+  "LockAllDrawingObjects": [
+    "LeftCtrl",
+    "L"
+  ],
+  "Volume1": [
+    "D1"
+  ],
+  "Volume2": [
+    "D2"
+  ],
+  "Volume3": [
+    "D3"
+  ],
+  "Volume4": [
+    "D4"
+  ],
+  "Volume5": [
+    "D5"
+  ]
+}

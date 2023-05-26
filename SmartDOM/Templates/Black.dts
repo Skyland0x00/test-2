@@ -1,0 +1,1053 @@
+{
+  "Value": {
+    "$type": "OFT.Platform.Settings.SmartDOM.SmartDOMSettings, OFT.Platform",
+    "TradingSettings": {
+      "ShowOrders": false,
+      "SimpleOrderEntry": true,
+      "OneClickMode": false,
+      "CloseOutstandingOrders": false,
+      "StopLimitSlippage": 1,
+      "IsStopLimit": false,
+      "RowHeight": 15,
+      "AutoCenterIntervalSec": 60,
+      "AutoCenterSpeed": 30,
+      "BackColor": "#FF171717",
+      "ShowEmptyPricelevels": true,
+      "DigitsAfterComma": 0,
+      "CenterLineColor": "#FFBFBFBF",
+      "CenterLineWidth": 1,
+      "ShowCenterLine": true,
+      "ScaleSettings": {
+        "CustomScale": 1,
+        "UseAutoScale": true
+      }
+    },
+    "Volume": 1.0,
+    "Locked": false,
+    "SelectedTif": "GoodTillCancel",
+    "CanvasSettings": {
+      "Elements": [
+        {
+          "Name": "WindowsFormsHost1",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 1.0,
+          "Y": 47.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 348.0,
+          "Height": 576.0,
+          "Visibility": "visible",
+          "StretchHorizontally": true,
+          "StretchVertically": true,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "AccountsBox",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 1.0,
+          "Y": 1.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 183.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": true,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "VolumeCounter",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 300.0,
+          "Y": 1.0,
+          "FixedX": false,
+          "FixedY": true,
+          "Width": 49.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "PnL",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 201.0,
+          "Y": 625.0,
+          "FixedX": false,
+          "FixedY": false,
+          "Width": 61.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 12.0,
+          "PositiveColor": "#FF008000",
+          "PositiveBackground": "#00FFFFFF",
+          "NegativeColor": "#FFFF0004",
+          "NegativeBackground": "#00FFFFFF",
+          "ZeroColor": "#FFBBBBBA",
+          "ZeroBackground": "#00FFFFFF",
+          "Volume": 0.0
+        },
+        {
+          "Name": "Flat",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 263.0,
+          "Y": 625.0,
+          "FixedX": false,
+          "FixedY": false,
+          "Width": 61.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 12.0,
+          "PositiveColor": "#FFFFFFFF",
+          "PositiveBackground": "#FF008000",
+          "NegativeColor": "#FFFFFFFF",
+          "NegativeBackground": "#FF800000",
+          "ZeroColor": "#FFBABABA",
+          "ZeroBackground": "#00FFFFFF",
+          "Volume": 0.0
+        },
+        {
+          "Name": "Entry",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 146.0,
+          "Y": 502.0,
+          "FixedX": false,
+          "FixedY": false,
+          "Width": 61.0,
+          "Height": 22.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 12.0,
+          "PositiveColor": "#FFFFFFFF",
+          "PositiveBackground": "#FF008000",
+          "NegativeColor": "#FFFFFFFF",
+          "NegativeBackground": "#FF7F0000",
+          "ZeroColor": "#FFC4BEBF",
+          "ZeroBackground": "#00FFFFFF",
+          "Volume": 0.0
+        },
+        {
+          "Name": "QtyBox",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 292.0,
+          "Y": 414.0,
+          "FixedX": false,
+          "FixedY": false,
+          "Width": 30.0,
+          "Height": 22.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 12.0,
+          "PositiveColor": "#FF008000",
+          "PositiveBackground": "#00FFFFFF",
+          "NegativeColor": "#FFFF0000",
+          "NegativeBackground": "#00FFFFFF",
+          "ZeroColor": "#FF000000",
+          "ZeroBackground": "#00FFFFFF",
+          "Volume": 0.0
+        },
+        {
+          "Name": "F",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 84.0,
+          "Y": 625.0,
+          "FixedX": true,
+          "FixedY": false,
+          "Width": 116.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": true,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Content": "CLOSE",
+          "Volume": 0.0
+        },
+        {
+          "Name": "R",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 1.0,
+          "Y": 625.0,
+          "FixedX": true,
+          "FixedY": false,
+          "Width": 82.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Content": "Reverse",
+          "Volume": 0.0
+        },
+        {
+          "Name": "X",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 319.0,
+          "Y": 224.0,
+          "FixedX": true,
+          "FixedY": false,
+          "Width": 70.0,
+          "Height": 22.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": true,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Content": "Cancel all",
+          "Volume": 0.0
+        },
+        {
+          "Name": "C",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 358.0,
+          "Y": 7.0,
+          "FixedX": true,
+          "FixedY": false,
+          "Width": 22.0,
+          "Height": 22.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Content": "C",
+          "Volume": 0.0
+        },
+        {
+          "Name": "lockborder",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 325.0,
+          "Y": 625.0,
+          "FixedX": false,
+          "FixedY": false,
+          "Width": 25.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "ocoborder",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 300.0,
+          "Y": 24.0,
+          "FixedX": false,
+          "FixedY": true,
+          "Width": 49.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "buybid",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 319.0,
+          "Y": 199.0,
+          "FixedX": true,
+          "FixedY": false,
+          "Width": 70.0,
+          "Height": 22.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Content": "BUY BID",
+          "Volume": 0.0
+        },
+        {
+          "Name": "buymarket",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 319.0,
+          "Y": 149.0,
+          "FixedX": true,
+          "FixedY": false,
+          "Width": 70.0,
+          "Height": 22.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Content": "BUY MKT",
+          "Volume": 0.0
+        },
+        {
+          "Name": "buyask",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 319.0,
+          "Y": 174.0,
+          "FixedX": true,
+          "FixedY": false,
+          "Width": 70.0,
+          "Height": 22.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Content": "BUY ASK",
+          "Volume": 0.0
+        },
+        {
+          "Name": "sellbid",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 319.0,
+          "Y": 99.0,
+          "FixedX": true,
+          "FixedY": false,
+          "Width": 70.0,
+          "Height": 22.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Content": "SELL BID",
+          "Volume": 0.0
+        },
+        {
+          "Name": "sellmarket",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 319.0,
+          "Y": 124.0,
+          "FixedX": true,
+          "FixedY": false,
+          "Width": 70.0,
+          "Height": 22.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Content": "SELL MKT",
+          "Volume": 0.0
+        },
+        {
+          "Name": "sellask",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 319.0,
+          "Y": 74.0,
+          "FixedX": true,
+          "FixedY": false,
+          "Width": 70.0,
+          "Height": 22.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Content": "SELL ASK",
+          "Volume": 0.0
+        },
+        {
+          "Name": "grid1",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 46.0,
+          "Y": 288.0,
+          "FixedX": false,
+          "FixedY": false,
+          "Width": 302.0,
+          "Height": 52.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "grid2",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 62.0,
+          "Y": 24.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 238.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": true,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        },
+        {
+          "Name": "lot1",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 185.0,
+          "Y": 1.0,
+          "FixedX": false,
+          "FixedY": true,
+          "Width": 22.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Volume": 1.0
+        },
+        {
+          "Name": "lot2",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 208.0,
+          "Y": 1.0,
+          "FixedX": false,
+          "FixedY": true,
+          "Width": 22.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Volume": 2.0
+        },
+        {
+          "Name": "lot3",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 231.0,
+          "Y": 1.0,
+          "FixedX": false,
+          "FixedY": true,
+          "Width": 22.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Volume": 3.0
+        },
+        {
+          "Name": "lot4",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 254.0,
+          "Y": 1.0,
+          "FixedX": false,
+          "FixedY": true,
+          "Width": 22.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Volume": 5.0
+        },
+        {
+          "Name": "lot5",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 277.0,
+          "Y": 1.0,
+          "FixedX": false,
+          "FixedY": true,
+          "Width": 22.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Volume": 10.0
+        },
+        {
+          "Name": "lot6",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 326.0,
+          "Y": 62.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 22.0,
+          "Height": 22.0,
+          "Visibility": "hidden",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FF181818</SolidColorBrush>"
+          },
+          "Foreground": {
+            "Custom": false,
+            "BrushData": "<SolidColorBrush xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\">#FFBABABA</SolidColorBrush>"
+          },
+          "FontSize": 12.0,
+          "Volume": 50.0
+        },
+        {
+          "Name": "TIFSelector",
+          "DesignX": "NaN",
+          "DesignY": "NaN",
+          "DesignWidth": "NaN",
+          "DesignHeight": "NaN",
+          "X": 1.0,
+          "Y": 24.0,
+          "FixedX": true,
+          "FixedY": true,
+          "Width": 60.0,
+          "Height": 22.0,
+          "Visibility": "visible",
+          "StretchHorizontally": false,
+          "StretchVertically": false,
+          "Background": {
+            "Custom": false
+          },
+          "Foreground": {
+            "Custom": false
+          },
+          "FontSize": 11.0,
+          "Volume": 0.0
+        }
+      ],
+      "ActualSize": "348,644"
+    },
+    "Columns": [
+      {
+        "$type": "Advanced_Time_And_Sales.TradingModule.Columns.BothOrders, OFT.Controls",
+        "ButtonColor": "#FF808080",
+        "ButtonFont": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": true,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "ButtonFontColor": "#FF000000",
+        "SelectionColor": "#FFC7C7C7",
+        "MediaBuysColor": "#FF3F6FBF",
+        "MediaSellsColor": "#FF800000",
+        "ModifyColor": "#FFFFA500",
+        "Header": "Orders",
+        "HeaderColor": "#FF000000",
+        "HeaderFont": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "HeaderFontColor": "#FF808080",
+        "Font": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "FontColor": "#FFFFFFFF",
+        "ColumnColor": "#FF000000",
+        "Width": 40,
+        "VisualName": "My orders",
+        "IsWaitingForRedrawHeader": false,
+        "IsSupportedFlush": false
+      },
+      {
+        "$type": "Advanced_Time_And_Sales.TradingModule.Columns.Queue, OFT.Controls",
+        "ButtonColor": "#FF000000",
+        "Side": "both",
+        "Header": "QP",
+        "HeaderColor": "#FF000000",
+        "HeaderFont": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "HeaderFontColor": "#FF808080",
+        "Font": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "FontColor": "#FFFFFFFF",
+        "ColumnColor": "#FF000000",
+        "Width": 40,
+        "VisualName": "РћС‡РµСЂРµРґСЊ",
+        "IsWaitingForRedrawHeader": false,
+        "IsSupportedFlush": false
+      },
+      {
+        "$type": "Advanced_Time_And_Sales.TradingModule.Columns.Limits, OFT.Controls",
+        "BestPriceMode": false,
+        "BestPriceColor": "#FFA9A9A9",
+        "ButtonText": "MKT",
+        "ButtonColor": "#FF808080",
+        "ButtonFont": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": true,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "ButtonFontColor": "#FF000000",
+        "UnvailableRowFontColor": "#FF808080",
+        "ShowUnvailableRows": false,
+        "SelectionColor": "#FF4169E1",
+        "Side": "bid",
+        "VisualMode": "volume",
+        "Filter": 0.0,
+        "FilterColor": "#FFA9A9A9",
+        "ShowHistogram": false,
+        "HistogramColor": "#FF008FC2",
+        "RightToLeft": true,
+        "ShowCumulativeValues": false,
+        "Header": "Bid",
+        "HeaderColor": "#FF000000",
+        "HeaderFont": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "HeaderFontColor": "#FF808080",
+        "Font": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "FontColor": "#FFFFFFFF",
+        "ColumnColor": "#FF274985",
+        "Width": 40,
+        "VisualName": "РЎРїСЂРѕСЃ",
+        "IsWaitingForRedrawHeader": false,
+        "IsSupportedFlush": false
+      },
+      {
+        "$type": "Advanced_Time_And_Sales.TradingModule.Columns.PriceColumn, OFT.Controls",
+        "PnlType": "money",
+        "ShowCurrentDay": false,
+        "CurrentDayBackGround": "#FF808080",
+        "ShowLastTrade": true,
+        "CurrentPriceBackColor": "#FFFFFF00",
+        "AvgPriceColor": "#FFDEB887",
+        "ButtonColor": "#FF000000",
+        "PositivePnl": "#FF00FF00",
+        "NegativePnl": "#FFFF0000",
+        "ButtonFont": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "HighlightBestBidAsk": false,
+        "BestAskColor": "#FF90EE90",
+        "BestBidColor": "#FFF08080",
+        "Header": "Price",
+        "HeaderColor": "#FF000000",
+        "HeaderFont": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "HeaderFontColor": "#FF808080",
+        "Font": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "FontColor": "#FF808080",
+        "ColumnColor": "#FF000000",
+        "Width": 60,
+        "VisualName": "Price",
+        "IsWaitingForRedrawHeader": false,
+        "IsSupportedFlush": false
+      },
+      {
+        "$type": "Advanced_Time_And_Sales.TradingModule.Columns.Limits, OFT.Controls",
+        "BestPriceMode": false,
+        "BestPriceColor": "#FFA9A9A9",
+        "ButtonText": "MKT",
+        "ButtonColor": "#FF808080",
+        "ButtonFont": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": true,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "ButtonFontColor": "#FF000000",
+        "UnvailableRowFontColor": "#FF808080",
+        "ShowUnvailableRows": false,
+        "SelectionColor": "#FFB80003",
+        "Side": "offer",
+        "VisualMode": "volume",
+        "Filter": 0.0,
+        "FilterColor": "#FFA9A9A9",
+        "ShowHistogram": false,
+        "HistogramColor": "#FFD9484C",
+        "RightToLeft": false,
+        "ShowCumulativeValues": false,
+        "Header": "Ask",
+        "HeaderColor": "#FF000000",
+        "HeaderFont": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "HeaderFontColor": "#FF808080",
+        "Font": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "FontColor": "#FFFFFFFF",
+        "ColumnColor": "#FF800000",
+        "Width": 40,
+        "VisualName": "РџСЂРµРґР»РѕР¶РµРЅРёРµ",
+        "IsWaitingForRedrawHeader": false,
+        "IsSupportedFlush": false
+      },
+      {
+        "$type": "Advanced_Time_And_Sales.TradingModule.Columns.HistogramColumn, OFT.Controls",
+        "ShowHistogram": true,
+        "Interval": "currentDay",
+        "HistogramType": "volume",
+        "RightToLeft": true,
+        "HistogramColor": "#7A6B6B6B",
+        "BidsColor": "#FFDC143C",
+        "AskColor": "#FF4F81BD",
+        "SelectMaxValue": true,
+        "MaxValueColor": "#FF6B6B6B",
+        "ShowValueArea": true,
+        "ValueAreaColor": "#B36B6B6B",
+        "BestPriceMode": "hide",
+        "BestPriceColor": "#FFA9A9A9",
+        "ShowBarDirection": true,
+        "PositivebarColor": "#FF008000",
+        "NegativebarColor": "#FFFF0000",
+        "ShowLastTrade": false,
+        "CumulativeMode": true,
+        "UpTickBackground": "#FF90EE90",
+        "UpTickText": "#FF000000",
+        "DownTickBackground": "#FFFF4500",
+        "DownTickText": "#FFFFFFFF",
+        "SameTickBackground": "#FFFFFFFF",
+        "SameTickText": "#FF000000",
+        "TextAlignment": "center",
+        "Header": "Profile",
+        "HeaderColor": "#FF000000",
+        "HeaderFont": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "HeaderFontColor": "#FF808080",
+        "Font": {
+          "Size": 8,
+          "FontFamily": "Arial",
+          "Bold": false,
+          "Italic": false,
+          "Underline": false,
+          "Strikeout": false
+        },
+        "FontColor": "#FFFFFFFF",
+        "ColumnColor": "#FF000000",
+        "Width": 80,
+        "VisualName": "Volume profile",
+        "IsWaitingForRedrawHeader": false,
+        "IsSupportedFlush": false
+      }
+    ],
+    "FloatSize": "360,682"
+  },
+  "IsSystem": false
+}

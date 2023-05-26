@@ -1,0 +1,37 @@
+{
+  "Remember": true,
+  "Login": "hoaba47100@gmail.com",
+  "Password": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARvlzWPM/EEKNHVHXJ1aQcAAAAAACAAAAAAAQZgAAAAEAACAAAAB3za4B4XwEkI2NmoG6JwqOWtkn0OL6yR2L8fSlnilvygAAAAAOgAAAAAIAACAAAABIbdCOgeBHwYjhMz89M0i3H4cRZFwnAuSpexFNqUmTMBAAAAAhiLl0fxuI3J05lVY5A/fMQAAAAJUFm4MUxzGP/CK6ar2M3lmGf0MBB4j/ahqjTBBD9zTUxXy2L7jejZhGW0DrmfuKdnCMpe89aIPEt8EAMl9Eh3c=",
+  "SelectedServer": "73F7CE42620A4DE3B49ACEE4073765EB",
+  "LoadLastWorkspace": false,
+  "ApplicationThemeName": "DarkPaletteVS2017Dark",
+  "IsWin8Notification": false,
+  "SkipImportOldWorkspace": false,
+  "ValueAreaPercent": 70,
+  "DepthLevelsCount": 40,
+  "Rendering": {
+    "UseProfiler": false,
+    "ChartRendererType": "direct2D",
+    "SmartDomRendererType": "direct2D",
+    "FontAntiAliasingMinSize": 12,
+    "MaxFps": 50,
+    "MaxNotInteractiveFps": 4,
+    "VideoAdapterId": 0
+  },
+  "ContinuousProfileSource": "currentContract",
+  "DatabaseBackupPeriod": "1.00:00:00",
+  "MaxDatabaseStoreBackups": 10,
+  "AllowAlpha": false,
+  "MaxCandlesPerChart": 100000,
+  "ShownSetupWorkspaceDialog": true,
+  "ShownRateDialogOnExit": true,
+  "AlreadySavedWorkspace": true,
+  "OrderEvents": [
+    "FirstChartOpenedDisconnected",
+    "FirstChartOpenedConnected"
+  ],
+  "ScreenshotTarget": "myAtas",
+  "ActiveWorkspaceName": "BTC",
+  "SelectedCultureName": "en-US",
+  "DefaultTemplates": {}
+}

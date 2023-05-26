@@ -1,0 +1,67 @@
+{
+  "IsEnabled": true,
+  "PlaySoundTimeout": "00:00:00.0500000",
+  "DropSoundTimeout": "00:00:00.2500000",
+  "SystemSoundFilles": [
+    {
+      "Sound": "connect",
+      "FilePath": "D:\\ATAS Platform\\Sounds\\connected.wav",
+      "IsEnabled": true,
+      "IsDefault": true
+    },
+    {
+      "Sound": "disconnect",
+      "FilePath": "D:\\ATAS Platform\\Sounds\\female_connection lost.wav",
+      "IsEnabled": true,
+      "IsDefault": true
+    },
+    {
+      "Sound": "connectorConnected",
+      "FilePath": "D:\\ATAS Platform\\Sounds\\datafeedconnected.wav",
+      "IsEnabled": true,
+      "IsDefault": true
+    },
+    {
+      "Sound": "connectorDisconnected",
+      "FilePath": "D:\\ATAS Platform\\Sounds\\datafeeddisconnected.wav",
+      "IsEnabled": true,
+      "IsDefault": true
+    },
+    {
+      "Sound": "orderPlaced",
+      "FilePath": "D:\\ATAS Platform\\Sounds\\female_order placed.wav",
+      "IsEnabled": true,
+      "IsDefault": true
+    },
+    {
+      "Sound": "orderFill",
+      "FilePath": "D:\\ATAS Platform\\Sounds\\female_order filled.wav",
+      "IsEnabled": true,
+      "IsDefault": true
+    },
+    {
+      "Sound": "stopOrderFill",
+      "FilePath": "D:\\ATAS Platform\\Sounds\\female_stop filled.wav",
+      "IsEnabled": true,
+      "IsDefault": true
+    },
+    {
+      "Sound": "orderCanceled",
+      "FilePath": "D:\\ATAS Platform\\Sounds\\female_order canceled.wav",
+      "IsEnabled": true,
+      "IsDefault": true
+    },
+    {
+      "Sound": "orderModifyed",
+      "FilePath": "D:\\ATAS Platform\\Sounds\\female_order changed.wav",
+      "IsEnabled": true,
+      "IsDefault": true
+    },
+    {
+      "Sound": "orderRejected",
+      "FilePath": "D:\\ATAS Platform\\Sounds\\rejected.wav",
+      "IsEnabled": true,
+      "IsDefault": true
+    }
+  ]
+}

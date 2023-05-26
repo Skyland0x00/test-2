@@ -1,0 +1,8 @@
+Version: "1"
+Entity: "MyTrade"
+Columns: "Route", "AccountID", "SecurityId", "Id", "OrderId", "OrderDirection", "Price", "Time", "Volume", "OpenVolume", "Commission", "CommissionCurrency"
+StartData
+, "CRYPTO02882", "BTCUSDT@BinanceFutures", "140660", "82053", "Buy", "20195", "06/29/2022 19:51:47", "0.472", "0.472", "0.000", 
+, "CRYPTO02882", "BTCUSDT@BinanceFutures", "140662", "82053", "Buy", "20195", "06/29/2022 19:51:47", "0.472", "0.472", "0.000", 
+, "CRYPTO02882", "BTCUSDT@BinanceFutures", "140663", "82053", "Buy", "20195", "06/29/2022 19:51:47", "0.056", "0.056", "0.000", 
+EndData

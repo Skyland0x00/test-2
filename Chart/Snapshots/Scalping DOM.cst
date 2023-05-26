@@ -1,0 +1,391 @@
+{
+  "Value": {
+    "$type": "OFT.Platform.Settings.Charting.ChartSettings, OFT.Platform",
+    "ScaleByLowerValue": false,
+    "ChartTraderIsEnabled": false,
+    "SelectedAccount": "DEMO04739",
+    "Volume": 1.0,
+    "TIF": 0,
+    "TemplateType": "snapshot",
+    "IsContinious": false,
+    "PanelsIsHidden": false,
+    "DrawingObjectses": [],
+    "EndDate": "2000-01-01T00:00:00",
+    "Template": {
+      "TemplateType": "template",
+      "ScaleByLowerValue": false,
+      "ChartScale": 1,
+      "Panels": [
+        {
+          "IsNew": true,
+          "SerializedIndicators": [
+            "{\r\n  \"Type\": \"ATAS.Indicators.Technical.TradingDepthOfMarket, ATAS.Indicators.Other, Version=5.7.100.1, Culture=neutral, PublicKeyToken=330427d8594115c7\",\r\n  \"Settings\": \"{\\r\\n  \\\"DomWidth\\\": 250,\\r\\n  \\\"Editors\\\": [\\r\\n    {\\r\\n      \\\"Value\\\": 5.0,\\r\\n      \\\"Rectangle\\\": \\\"0, 920, 40, 17\\\",\\r\\n      \\\"SelectionType\\\": \\\"none\\\"\\r\\n    },\\r\\n    {\\r\\n      \\\"Value\\\": 4.0,\\r\\n      \\\"Rectangle\\\": \\\"0, 903, 40, 17\\\",\\r\\n      \\\"SelectionType\\\": \\\"none\\\"\\r\\n    },\\r\\n    {\\r\\n      \\\"Value\\\": 3.0,\\r\\n      \\\"Rectangle\\\": \\\"0, 886, 40, 17\\\",\\r\\n      \\\"SelectionType\\\": \\\"none\\\"\\r\\n    },\\r\\n    {\\r\\n      \\\"Value\\\": 2.0,\\r\\n      \\\"Rectangle\\\": \\\"0, 869, 40, 17\\\",\\r\\n      \\\"SelectionType\\\": \\\"none\\\"\\r\\n    },\\r\\n    {\\r\\n      \\\"Value\\\": 1.0,\\r\\n      \\\"Rectangle\\\": \\\"0, 852, 40, 17\\\",\\r\\n      \\\"SelectionType\\\": \\\"selected\\\"\\r\\n    }\\r\\n  ],\\r\\n  \\\"OrderFlowInterval\\\": 10,\\r\\n  \\\"Filter\\\": 0.0,\\r\\n  \\\"OrderFlowVisualType\\\": \\\"circles\\\",\\r\\n  \\\"CumulativeMode\\\": false,\\r\\n  \\\"DigitsAfterComma\\\": 0,\\r\\n  \\\"PositionCalculationType\\\": \\\"fifo\\\",\\r\\n  \\\"Background\\\": \\\"#FFFFFFFF\\\",\\r\\n  \\\"TextColor\\\": \\\"#FF000000\\\",\\r\\n  \\\"GridColor\\\": \\\"#FF000000\\\",\\r\\n  \\\"Filters\\\": [],\\r\\n  \\\"AskBackground\\\": \\\"#64FE7F86\\\",\\r\\n  \\\"BidBackground\\\": \\\"#9C75FE75\\\",\\r\\n  \\\"BestAskColor\\\": \\\"#FFF07A7D\\\",\\r\\n  \\\"BestBidColor\\\": \\\"#FF6AD66A\\\",\\r\\n  \\\"HistogramColor\\\": \\\"#FFFFA500\\\",\\r\\n  \\\"MouseOverColor\\\": \\\"#7D8183D5\\\",\\r\\n  \\\"CustomFilter\\\": {\\r\\n    \\\"Value\\\": 0.0,\\r\\n    \\\"Enabled\\\": false,\\r\\n    \\\"EnabledVisible\\\": true\\r\\n  },\\r\\n  \\\"DigitsAfterCommaInDom\\\": 0,\\r\\n  \\\"StopOrdersModeKey\\\": [\\r\\n    \\\"V\\\"\\r\\n  ],\\r\\n  \\\"SetCenterPrice\\\": [\\r\\n    \\\"LeftShift\\\"\\r\\n  ],\\r\\n  \\\"Volume1\\\": [\\r\\n    \\\"D1\\\"\\r\\n  ],\\r\\n  \\\"Volume2\\\": [\\r\\n    \\\"D2\\\"\\r\\n  ],\\r\\n  \\\"Volume3\\\": [\\r\\n    \\\"D3\\\"\\r\\n  ],\\r\\n  \\\"Volume4\\\": [\\r\\n    \\\"D4\\\"\\r\\n  ],\\r\\n  \\\"Volume5\\\": [\\r\\n    \\\"D5\\\"\\r\\n  ],\\r\\n  \\\"CancelLimitOrders\\\": [\\r\\n    \\\"Escape\\\"\\r\\n  ],\\r\\n  \\\"CancelStopOrders\\\": [\\r\\n    \\\"System\\\"\\r\\n  ],\\r\\n  \\\"ClosePositionKey\\\": [\\r\\n    \\\"Z\\\"\\r\\n  ],\\r\\n  \\\"ReversePositionKey\\\": [\\r\\n    \\\"R\\\"\\r\\n  ],\\r\\n  \\\"BuyMarketKey\\\": [\\r\\n    \\\"Q\\\"\\r\\n  ],\\r\\n  \\\"SellMarketKey\\\": [\\r\\n    \\\"W\\\"\\r\\n  ],\\r\\n  \\\"BuyLimitOnBestBidKey\\\": [\\r\\n    \\\"A\\\"\\r\\n  ],\\r\\n  \\\"SellLimitOnBestAskKey\\\": [\\r\\n    \\\"S\\\"\\r\\n  ],\\r\\n  \\\"DenyToChangePanel\\\": true,\\r\\n  \\\"ShowDescription\\\": true,\\r\\n  \\\"Name\\\": \\\"Scalping DOM\\\",\\r\\n  \\\"Panel\\\": \\\"1\\\",\\r\\n  \\\"IsVerticalIndicator\\\": true\\r\\n}\",\r\n  \"SourceType\": \"bars\",\r\n  \"SourceSeriesId\": 0,\r\n  \"DataSeries\": [\r\n    {\r\n      \"Type\": \"ATAS.Indicators.ValueDataSeries, ATAS.Indicators, Version=5.7.100.1, Culture=neutral, PublicKeyToken=330427d8594115c7\",\r\n      \"Settings\": \"{\\r\\n  \\\"Digits\\\": 4,\\r\\n  \\\"StringFormat\\\": \\\"{0:0.0000}\\\",\\r\\n  \\\"ShowZeroValue\\\": true,\\r\\n  \\\"ShowCurrentValue\\\": true,\\r\\n  \\\"Width\\\": 1,\\r\\n  \\\"LineDashStyle\\\": \\\"solid\\\",\\r\\n  \\\"VisualType\\\": \\\"hide\\\",\\r\\n  \\\"Color\\\": \\\"#FFFF0000\\\",\\r\\n  \\\"ScaleIt\\\": true,\\r\\n  \\\"Type\\\": \\\"value\\\",\\r\\n  \\\"Name\\\": \\\"Scalping DOM\\\"\\r\\n}\"\r\n    }\r\n  ],\r\n  \"LineSeries\": [],\r\n  \"ShowDescription\": true\r\n}"
+          ],
+          "Height": 500
+        }
+      ],
+      "Indicators": [],
+      "clusterSettings": {
+        "ClustersFormat": "{0:0.##}",
+        "Caption": "Cluster Settings",
+        "Volumes": "#FF6495ED",
+        "Bid": "#FFFF0000",
+        "Ask": "#FF32CD32",
+        "ClusterBorderWidth": 1,
+        "Foreground": "#FF000000",
+        "AutoSize": true,
+        "FontSize": 9.0,
+        "CutLongText": true,
+        "MinimumClusterWidthToShowText": 10,
+        "DigitsAfterComma": 2,
+        "ValueAreaColor": "#64C8D8FF",
+        "ShowValueArea": false,
+        "ImbalanceBid": "#FFFF0000",
+        "ImbalanceAsk": "#FF008000",
+        "MinimumImbalanceDifference": 0,
+        "IgnoreZeroValues": false,
+        "ImbalanceVolumeFilter": 0,
+        "ImbalanceRate": 150,
+        "ShowDirectionMarker": true,
+        "DirectionMakerWidth": 0,
+        "ClusterBorderPen": {
+          "Color": "#FF403D3D",
+          "LineDashStyle": "solid",
+          "Width": 1
+        },
+        "BorderColorByDirection": false,
+        "ClustersContentMode": "volume",
+        "ClustersMode": "fullRow",
+        "UseBorderOfEachPriceLevel": false,
+        "ColorScheme": "delta",
+        "ClusterBG": "#00FFFFFF",
+        "VolumeColor": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": "#FF6495ED"
+        },
+        "BidColor": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": "#FFFF0000"
+        },
+        "AskColor": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": "#FF32CD32"
+        },
+        "HeatmapType": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 0
+        },
+        "UpperCutOff": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 20
+        },
+        "Contrast": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 0
+        },
+        "BorderType": "none",
+        "BorderColorByDirectionFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": false
+        },
+        "ClusterBorderPenFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": {
+            "Color": "#FF403D3D",
+            "LineDashStyle": 0,
+            "Width": 1
+          }
+        },
+        "ShowDirectionMarkerFilter": {
+          "EnabledVisible": true,
+          "Enabled": true,
+          "Value": 0
+        },
+        "Showtext": true,
+        "ForegroundFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": "#FF000000"
+        },
+        "AutoSizeFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": true
+        },
+        "FontSizeFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": 9.0
+        },
+        "Divider": 1.0,
+        "DigitsAfterCommaFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": 2
+        },
+        "CutLongTextFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": true
+        },
+        "MinimumClusterWidthToShowTextFilter": {
+          "EnabledVisible": false,
+          "Enabled": true,
+          "Value": 10
+        },
+        "MaxVolType": "volume",
+        "MaxVolColor": "#FF000000",
+        "MaxVolSelectionWidth": 1,
+        "MaxVolTextColor": "#FF000000",
+        "MaxLevelBold": true,
+        "ValueAreaColorFilter": {
+          "EnabledVisible": true,
+          "Enabled": false,
+          "Value": "#64C8D8FF"
+        },
+        "ProportionalMode": "bar",
+        "ProportionalHistogram": false,
+        "ProportionByAllBars": false,
+        "GradientRate": 70,
+        "CustomProportionValue": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 0.0
+        },
+        "CustomproportionVolume": 0.0,
+        "EnableBidAskImbalance": false,
+        "ImbalanceBidFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": "#FFFF0000"
+        },
+        "ImbalanceAskFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": "#FF008000"
+        },
+        "ImbalanceRateFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 150
+        },
+        "ImbalanceVolumeFilterInt": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 0
+        },
+        "MinimumImbalanceDifferenceFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": 0
+        },
+        "IgnoreZeroValuesFilter": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": false
+        },
+        "BoldFontForImbalances": {
+          "EnabledVisible": false,
+          "Enabled": false,
+          "Value": false
+        },
+        "CustomRowHeight": {
+          "EnabledVisible": true,
+          "Enabled": true,
+          "Value": 12
+        },
+        "Filters": []
+      },
+      "colorsettings": {
+        "Caption": "Chart Color Settings",
+        "BackgroundBrushSettings": {
+          "StartColor": "#FFFFFFFF",
+          "EndColor": "#FFADD8E6",
+          "UseEndColor": false
+        },
+        "BackGround": "#FFFFFFFF",
+        "CrosshairPen": {
+          "Color": "#FF7F7F7F",
+          "LineDashStyle": "dash",
+          "Width": 2
+        },
+        "StateColor": "#00FFFFFF",
+        "TextHistogramColor": "#FF000000",
+        "PriceLinePen": {
+          "Color": "#00EF5350",
+          "LineDashStyle": "solid",
+          "Width": 1
+        },
+        "ExtendPriceLine": false,
+        "GridPen": {
+          "Color": "#FFEFE3E5",
+          "LineDashStyle": "solid",
+          "Width": 1
+        },
+        "ShowVHorizontalGrid": true,
+        "CustomGridStep": 0,
+        "ShowVericalGrid": true,
+        "CustomVertGridStep": 0,
+        "NewSessionPen": {
+          "Color": "#FF808080",
+          "LineDashStyle": "solid",
+          "Width": 1
+        },
+        "AxisColor": "#FFFFFFFF",
+        "AxisTextColor": "#FF000000",
+        "FontSize": 9,
+        "AxisCurrentBackColor": "#FF000000",
+        "AxisCurrentForeColor": "#FFFFFFE0",
+        "TimeFormat": "auto",
+        "HidePriceAxis": true,
+        "BuyColor": "#FF26A69A",
+        "SellColor": "#FFEF5350",
+        "DrawCandleBorder": true,
+        "CellBorderColor": "#FF403D3D",
+        "CandleBorderWidth": 1,
+        "BarsWidth": 1,
+        "DojiBarColor": "#FF000000",
+        "DownBarColor": "#FFFF0000",
+        "UpBarColor": "#FF008000",
+        "ShowOpenOfBar": true,
+        "ShowCloseOfBar": true,
+        "ChartLinePen": {
+          "Color": "#FF6D6C6C",
+          "LineDashStyle": "solid",
+          "Width": 2
+        },
+        "MountainLinePen": {
+          "Color": "#FF476B96",
+          "LineDashStyle": "solid",
+          "Width": 2
+        },
+        "MountainBrushSettings": {
+          "StartColor": "#FF093367",
+          "EndColor": "#649ACCFF",
+          "UseEndColor": false
+        },
+        "UseSessionTime": false,
+        "SessionStart": "00:00:00",
+        "SessionEnd": "23:59:59",
+        "PriceBorder": false,
+        "ShowIndicatorsValuesOnMouseOver": true,
+        "AutoTransFormCandles": true,
+        "CandleSizeTotransformToClusters": 20,
+        "HideClustersPanel": true,
+        "AutoTransformHorizontalLines": false,
+        "AutoTransformVerticalLines": false,
+        "PriceOffset": 0,
+        "ChartOffset": 560,
+        "UseSmoothing": true,
+        "MouseWheelBehavior": "zoom",
+        "KeepSelectedObjects": false,
+        "ObjectsSelectionDrawingColor": "30, 83, 228",
+        "ObjectsSelectionColor": "#FF1E53E4",
+        "Sensitivity": 0,
+        "RedrawInterval": 100,
+        "NewSessionLineColor": "#FF808080",
+        "Сl_crosshair": "#FF7F7F7F",
+        "PriceLineColor": "#00EF5350",
+        "GridColor": "#FFEFE3E5",
+        "HistogramLinesColor": "#C8ADD8E6",
+        "HistogramColor": "#FF808080",
+        "ShowCumulativeValues": true,
+        "BidColor": "#FFE84548",
+        "AskColor": "#FF49D149",
+        "ValueAreaColor": "#FFC8D8FF",
+        "PocColor": "#FFC8D8FF",
+        "HistogramTextColor": "#FF35212E",
+        "ExtendPoc": false,
+        "ExtendValueArea": false
+      },
+      "histogramInterval": "contract",
+      "typeHistogram": "bidAsk",
+      "ShowHistogram": false,
+      "ShowingDigital": false,
+      "UseOpacility": false,
+      "ShowTxtMouse": true,
+      "VisibleCrossHair": true,
+      "ShowValueArea": true,
+      "ShowPoc": true,
+      "AlwaysOnTop": false,
+      "BarsType": "clusters",
+      "ClusterWidth": 41.672572015907147311099335914,
+      "TypeCluster": "volume",
+      "RowHeight": 12.0,
+      "ChangeHeightmanualy": true,
+      "PaintingMode": "drawCrossHair",
+      "TradingSettings": {
+        "PnLMode": "money",
+        "Caption": "",
+        "ShowText": true,
+        "OneClickMode": false,
+        "TradingMode": "autoDetection",
+        "StopMode": "stop",
+        "Slippage": 5,
+        "ShowTrades": "visibleWhenChartTraderIsEnabled",
+        "Size": 6,
+        "TradesColor": "#FF000080",
+        "TradesSellColor": "#FFFF0000",
+        "ShowOrders": "hidden",
+        "OrdersOffset": 115,
+        "LimitColors": "#FF87CEEB",
+        "StopColor": "#FFFFA0A2",
+        "OrderstextColor": "#FF000000",
+        "ShowPosition": "hidden",
+        "PositionOffset": 115,
+        "PositionPositiveVolumeColors": "#FF00FF00",
+        "PositionNegativeVolumeColors": "#FFFF0000",
+        "PositionTextColors": "#FFFFFFFF",
+        "PositionBackGround": "#FF000000",
+        "PositionPositive": "#FF008000",
+        "PositionNegative": "#FFFF0000",
+        "ClosepositionColor": "#FF87CEEB"
+      },
+      "ClusterVisualizationType": "bidAskLadder",
+      "Version": 1,
+      "UseAutoScale": true,
+      "LayoutString": "<XtraSerializer version=\"1.0\" application=\"\">\r\n  <property name=\"#LayoutVersion\">1.0</property>\r\n  <property name=\"$BarManager\" iskey=\"true\" value=\"BarManager\">\r\n    <property name=\"RuntimeCustomizations\" iskey=\"true\" value=\"3\">\r\n      <property name=\"Item1\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"PropertyName\">DockInfo.ContainerName</property>\r\n        <property name=\"NewValue\" type=\"System.String\" />\r\n        <property name=\"OldValue\" isnull=\"true\" />\r\n        <property name=\"ActOnHost\">false</property>\r\n        <property name=\"TargetName\">ClusterBar</property>\r\n        <property name=\"Overwrite\">true</property>\r\n        <property name=\"Timestamp\">404423390</property>\r\n        <property name=\"CustomizationType\">DevExpress.Xpf.Bars.RuntimePropertyCustomization</property>\r\n        <property name=\"AffectedTargets\" iskey=\"true\" value=\"0\" />\r\n      </property>\r\n      <property name=\"Item2\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"PropertyName\">DockInfo.ContainerName</property>\r\n        <property name=\"NewValue\" type=\"System.String\" />\r\n        <property name=\"OldValue\" type=\"System.String\" />\r\n        <property name=\"ActOnHost\">false</property>\r\n        <property name=\"TargetName\">ClusterBar</property>\r\n        <property name=\"Overwrite\">true</property>\r\n        <property name=\"Timestamp\">97866171</property>\r\n        <property name=\"CustomizationType\">DevExpress.Xpf.Bars.RuntimePropertyCustomization</property>\r\n        <property name=\"AffectedTargets\" iskey=\"true\" value=\"0\" />\r\n      </property>\r\n      <property name=\"Item3\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"PropertyName\">Visible</property>\r\n        <property name=\"NewValue\" type=\"System.Boolean\">false</property>\r\n        <property name=\"OldValue\" type=\"System.Boolean\">true</property>\r\n        <property name=\"ActOnHost\">false</property>\r\n        <property name=\"TargetName\">ClusterBar</property>\r\n        <property name=\"Overwrite\">true</property>\r\n        <property name=\"Timestamp\">97896921</property>\r\n        <property name=\"CustomizationType\">DevExpress.Xpf.Bars.RuntimePropertyCustomization</property>\r\n        <property name=\"AffectedTargets\" iskey=\"true\" value=\"0\" />\r\n      </property>\r\n    </property>\r\n  </property>\r\n  <property name=\"$BarManager$ChartLayoutControl\" iskey=\"true\" value=\"BarManager$ChartLayoutControl\">\r\n    <property name=\"Items\" iskey=\"true\" value=\"4\">\r\n      <property name=\"Item1\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"SerializableItem.TypeName\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\">LayoutGroup</property>\r\n        <property name=\"SerializableItem.ParentName\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\" />\r\n        <property name=\"SerializableItem.ParentCollectionName\" isnull=\"true\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\" />\r\n        <property name=\"Name\">_layoutItem1</property>\r\n      </property>\r\n      <property name=\"Item2\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"Name\">_layoutItem2</property>\r\n        <property name=\"TypeName\">Border</property>\r\n        <property name=\"ParentName\">_layoutItem1</property>\r\n        <property name=\"ParentCollectionName\" isnull=\"true\" />\r\n        <property name=\"HorizontalAlignment\">Stretch</property>\r\n        <property name=\"VerticalAlignment\">Stretch</property>\r\n        <property name=\"Width\">NaN</property>\r\n        <property name=\"Height\">NaN</property>\r\n      </property>\r\n      <property name=\"Item3\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"SerializableItem.TypeName\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\">LayoutGroup</property>\r\n        <property name=\"SerializableItem.ParentName\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\" />\r\n        <property name=\"SerializableItem.ParentCollectionName\" isnull=\"true\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\" />\r\n        <property name=\"Width\">200</property>\r\n        <property name=\"Name\">_layoutItem3</property>\r\n      </property>\r\n      <property name=\"Item4\" isnull=\"true\" iskey=\"true\">\r\n        <property name=\"Name\">_layoutItem4</property>\r\n        <property name=\"TypeName\">ScrollViewer</property>\r\n        <property name=\"ParentName\">_layoutItem3</property>\r\n        <property name=\"ParentCollectionName\" isnull=\"true\" />\r\n        <property name=\"HorizontalAlignment\">Stretch</property>\r\n        <property name=\"VerticalAlignment\">Stretch</property>\r\n        <property name=\"Width\">NaN</property>\r\n        <property name=\"Height\">NaN</property>\r\n      </property>\r\n    </property>\r\n    <property name=\"Orientation\">Horizontal</property>\r\n    <property name=\"SerializableItem.TypeName\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\">LayoutControl</property>\r\n  </property>\r\n  <property name=\"$ChartLayoutControl$BarManager$ChartGroup\" iskey=\"true\" value=\"ChartLayoutControl$BarManager$ChartGroup\">\r\n    <property name=\"SerializableItem.TypeName\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\">LayoutGroup</property>\r\n    <property name=\"SerializableItem.ParentName\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\" />\r\n    <property name=\"SerializableItem.ParentCollectionName\" isnull=\"true\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\" />\r\n    <property name=\"Name\">_layoutItem1</property>\r\n  </property>\r\n  <property name=\"$ChartLayoutControl$BarManager$ChartTraderGroup\" iskey=\"true\" value=\"ChartLayoutControl$BarManager$ChartTraderGroup\">\r\n    <property name=\"SerializableItem.TypeName\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\">LayoutGroup</property>\r\n    <property name=\"SerializableItem.ParentName\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\" />\r\n    <property name=\"SerializableItem.ParentCollectionName\" isnull=\"true\" OwnerType=\"DevExpress.Xpf.LayoutControl.Serialization.SerializableItem\" DependencyPropertyType=\"System.String\" />\r\n    <property name=\"Width\">200</property>\r\n    <property name=\"Name\">_layoutItem3</property>\r\n  </property>\r\n</XtraSerializer>"
+    },
+    "TimeFrame": {
+      "Period": "timeFrame",
+      "PeriodParameters": {
+        "$type": "OFT.Controls.Chart.MinuteTimeFrame, OFT.Controls",
+        "TimeFrame": "m5",
+        "CustomTimeFrame": 1,
+        "Label": "@value",
+        "DefaultDaysToLoad": 4,
+        "VisualName": "M5"
+      },
+      "LoadCustomDaysCount": false,
+      "CustomDaysCount": 1,
+      "LoadCustomEndDate": false,
+      "CustomEndDate": "2018-08-31T10:35:36.6642228+07:00"
+    },
+    "Canvas": {
+      "Elements": []
+    },
+    "LinkedPanels": {
+      "$type": "System.String[], mscorlib",
+      "$values": []
+    },
+    "Width": 41.672572015907147311099335914,
+    "StrategySettings": [],
+    "TraderSettings": {
+      "VolumeByCurrency": {},
+      "IsPercentMode": false,
+      "MarketOrderFlags": {},
+      "LimitOrderFlags": {},
+      "ConditionalMarketOrderFlags": {},
+      "ConditionalLimitOrderFlags": {}
+    }
+  },
+  "IsSystem": false
+}

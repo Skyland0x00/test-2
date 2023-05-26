@@ -1,0 +1,16 @@
+Version: "1"
+Entity: "Security"
+Columns: "Id", "Code", "Exchange", "Instrument", "Expiration", "Type", "TickSize", "TickCost", "LotSize"
+StartData
+"BTCUSDT@BinanceFutures", "BTCUSDT", "BinanceFutures", "BTCUSDT@BinanceFutures", "", "4", "0.1", "0.1", "0.001"
+"BTCUSDT@Bybit", "BTCUSDT", "Bybit", "BTCUSDT@Bybit", "", "3", "0.1", "0.1", "1"
+"APTBUSD@Binance", "APTBUSD", "Binance", "APTBUSD@Binance", "", "3", "0.0001", "0.0001", "1"
+"ETHW/USD@FTX", "ETHW/USD", "FTX", "ETHW/USD@FTX", "", "3", "0.001", "0.001", "1"
+"APTUSDT@Binance", "APTUSDT", "Binance", "APTUSDT@Binance", "", "3", "0.0001", "0.0001", "1"
+"DOGEUSDT@BinanceFutures", "DOGEUSDT", "BinanceFutures", "DOGEUSDT@BinanceFutures", "", "4", "0.00001", "0.00001", "1"
+"NKNUSDT@BinanceFutures", "NKNUSDT", "BinanceFutures", "NKNUSDT@BinanceFutures", "", "4", "0.00001", "0.00001", "1"
+"BTCUSDT@Binance", "BTCUSDT", "Binance", "BTCUSDT@Binance", "", "3", "0.01", "0.01", "1"
+"XBTUSD@BitMEX", "XBTUSD", "BitMEX", "XBTUSD@BitMEX", "", "3", "0.5", "1", "1"
+"BTCUSD@Bybit", "BTCUSD", "Bybit", "BTCUSD@Bybit", "", "3", "0.5", "0.5", "1"
+"ETHUSDT@Bybit", "ETHUSDT", "Bybit", "ETHUSDT@Bybit", "", "3", "0.01", "0.01", "1"
+EndData

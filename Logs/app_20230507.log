@@ -1,0 +1,174 @@
+2023-05-07 14:44:58,602 [1         ] INFO  N2LFSG27763_ejd: Run app with arguments: 
+2023-05-07 14:44:58,615 [3         ] INFO  App            : Settings directory "C:\Users\rhaegar\Documents\ATAS" has attributes: Directory.
+2023-05-07 14:44:59,775 [5         ] INFO  App            : --------------------------------------------------------------------------------
+2023-05-07 14:44:59,777 [5         ] INFO  App            : Started v5.8.1.453
+2023-05-07 14:44:59,779 [5         ] INFO  App            : ---------------------Win32_OperatingSystem instance-----------------------------
+2023-05-07 14:44:59,779 [5         ] INFO  App            : Caption: Microsoft Windows 10 Pro
+2023-05-07 14:44:59,780 [5         ] INFO  App            : Name: Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk1\Partition3
+2023-05-07 14:44:59,780 [5         ] INFO  App            : Version: 10.0.19044
+2023-05-07 14:44:59,780 [5         ] INFO  App            : OSType: 18
+2023-05-07 14:44:59,780 [5         ] INFO  App            : OSArchitecture: 64-bit
+2023-05-07 14:44:59,780 [5         ] INFO  App            : OSLanguage: 1033
+2023-05-07 14:44:59,780 [5         ] INFO  App            : ServicePackMajorVersion: 0
+2023-05-07 14:44:59,780 [5         ] INFO  App            : ServicePackMinorVersion: 0
+2023-05-07 14:44:59,780 [5         ] INFO  App            : Status: OK
+2023-05-07 14:44:59,780 [5         ] INFO  App            : FreePhysicalMemory: 8888368
+2023-05-07 14:44:59,780 [5         ] INFO  App            : FreeVirtualMemory: 4519192
+2023-05-07 14:44:59,780 [5         ] INFO  App            : VcRedist 2013 (v120): True
+2023-05-07 14:44:59,780 [5         ] INFO  App            : VcRedist 2015 (v140): False
+2023-05-07 14:44:59,780 [5         ] INFO  App            : VcRedist 2019 bundle: 14.34
+2023-05-07 14:44:59,780 [5         ] INFO  App            : Time zone: (UTC+07:00) Bangkok, Hanoi, Jakarta
+2023-05-07 14:44:59,781 [5         ] INFO  App            : ----------------------- Win32_Processor instance -------------------------------
+2023-05-07 14:44:59,781 [5         ] INFO  App            : Name: Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz
+2023-05-07 14:44:59,781 [5         ] INFO  App            : NumberOfCores: 4
+2023-05-07 14:44:59,781 [5         ] INFO  App            : ProcessorId: BFEBFBFF000906EA
+2023-05-07 14:44:59,781 [5         ] INFO  App            : --------------------- Win32_PhysicalMemory instance ----------------------------
+2023-05-07 14:44:59,781 [5         ] INFO  App            : BankLabel: BANK 0 ; Capacity: 8.00 Gb; Speed: 2400 
+2023-05-07 14:44:59,781 [5         ] INFO  App            : BankLabel: BANK 2 ; Capacity: 8.00 Gb; Speed: 2400 
+2023-05-07 14:44:59,782 [5         ] INFO  App            : -------------------- Win32_VideoController instance ----------------------------
+2023-05-07 14:44:59,782 [5         ] INFO  App            : AdapterRAM: 4293918720
+2023-05-07 14:44:59,782 [5         ] INFO  App            : Caption: NVIDIA GeForce GTX 1650
+2023-05-07 14:44:59,782 [5         ] INFO  App            : Description: NVIDIA GeForce GTX 1650
+2023-05-07 14:44:59,782 [5         ] INFO  App            : VideoProcessor: NVIDIA GeForce GTX 1650
+2023-05-07 14:44:59,783 [5         ] INFO  App            : ------------------------ Win32_DiskDrive instance ------------------------------
+2023-05-07 14:44:59,783 [5         ] INFO  App            : DeviceID: \\.\PHYSICALDRIVE0; InterfaceType: IDE; Manufacturer: (Standard disk drives); Model: ST1000DM010-2EP102; SerialNumber:             ZN1X73NW; Size: 931.51 Gb
+2023-05-07 14:44:59,783 [5         ] INFO  App            : DeviceID: \\.\PHYSICALDRIVE1; InterfaceType: IDE; Manufacturer: (Standard disk drives); Model: WD Green 2.5 240GB; SerialNumber: 222409A00879; Size: 223.57 Gb
+2023-05-07 14:44:59,783 [3         ] INFO  Server         : Requesting current server...
+2023-05-07 14:44:59,784 [5         ] INFO  App            : -------------------- Display information --------------------
+2023-05-07 14:44:59,784 [5         ] INFO  App            :                     DpiX: 96
+2023-05-07 14:44:59,784 [5         ] INFO  App            :                     DpiY: 96
+2023-05-07 14:44:59,784 [5         ] INFO  App            :        VisibleClipBounds: {X=0,Y=0,Width=1920,Height=1080}
+2023-05-07 14:44:59,787 [5         ] INFO  App            : -------------------- Display #1 --------------------
+2023-05-07 14:44:59,787 [5         ] INFO  App            :                  Primary: True
+2023-05-07 14:44:59,787 [5         ] INFO  App            :               DeviceName: \\.\DISPLAY1
+2023-05-07 14:44:59,787 [5         ] INFO  App            :              WorkingArea: {X=0,Y=0,Width=1920,Height=1040}
+2023-05-07 14:44:59,787 [5         ] INFO  App            :                   Bounds: {X=0,Y=0,Width=1920,Height=1080}
+2023-05-07 14:44:59,787 [5         ] INFO  App            : --------------------------------------------------------------------------------
+2023-05-07 14:45:00,254 [3         ] INFO  Server         : Current server R2.
+2023-05-07 14:45:00,337 [acheThread] INFO  Database       : Delete backup file: 'C:\Users\rhaegar\Documents\ATAS\Database\Backups\DatabaseBackup_130323163659.zip'.
+2023-05-07 14:45:00,602 [ST Queue  ] INFO  ST Queue       : Process thread started.
+2023-05-07 14:45:06,819 [her Thread] INFO  App            : >> Show AuthorizationWindow time: 00:00:08.9294141 <<
+2023-05-07 14:45:08,709 [1         ] INFO  App            : Initializing views...
+2023-05-07 14:45:09,033 [1         ] INFO  N2LFSG27763_ejd: Initializing resources...
+2023-05-07 14:45:09,034 [1         ] INFO  N2LFSG27763_ejd: Initializing renderer settings...
+2023-05-07 14:45:09,689 [1         ] INFO  N2LFSG27763_ejd: Initialize views done for 00:00:00.9802308.
+2023-05-07 14:45:10,377 [24        ] INFO                : Response current branch: stable.
+2023-05-07 14:45:10,379 [24        ] INFO  AutoUpdater    : End request current branch: stable.
+2023-05-07 14:45:10,503 [her Thread] INFO  pdaterViewModel: Set branch to selector: stable,
+2023-05-07 14:45:12,475 [7         ] INFO  App            : End loading assemblies 00:00:05.6577160.
+2023-05-07 14:45:12,475 [7         ] INFO  App            : Loaded assembly: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,475 [7         ] INFO  App            : Loaded assembly: OFT.Platform, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,475 [7         ] INFO  App            : Loaded assembly: PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 14:45:12,475 [7         ] INFO  App            : Loaded assembly: WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 14:45:12,475 [7         ] INFO  App            : Loaded assembly: System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,475 [7         ] INFO  App            : Loaded assembly: System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,475 [7         ] INFO  App            : Loaded assembly: PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 14:45:12,475 [7         ] INFO  App            : Loaded assembly: System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,475 [7         ] INFO  App            : Loaded assembly: CommLib, Version=1.0.0.44, Culture=neutral, PublicKeyToken=b6b45f27e2749b17.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: DevExpress.Data.Desktop.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Core.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: DevExpress.Data.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: ReflectionHelperTypesPublicWrappers, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: OFT.Docking, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: Utils.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: ATAS.DataFeedsCore, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: protobuf-net, Version=2.4.0.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: OFT.SystemStatistics, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: Utils.Xaml, Version=1.0.0.0, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: OFT.Core, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: OFT.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,476 [7         ] INFO  App            : Loaded assembly: System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: OFT.Rendering, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: DevExpress.Mvvm.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: System.Resources.ResourceManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: OFT.Controls, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Controls.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: ATAS.Indicators, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: Autofac, Version=4.6.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: linq2db, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e41013125f9e410a.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: ATAS.Types, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Themes.VS2017Dark.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: Mono.Cecil, Version=0.11.4.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Docking.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: OFT.Attributes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: System.IO.Compression.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: ATAS.Strategies, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,477 [7         ] INFO  App            : Loaded assembly: System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,478 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Themes.DarkPaletteVS2017Dark.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,478 [7         ] INFO  App            : Loaded assembly: PresentationFramework.Aero2, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 14:45:12,478 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Ribbon.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,479 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Themes.VS2017Light.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,479 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Themes.LightPaletteVS2017Light.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,479 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.PropertyGrid.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,479 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Themes.TradingPitPaletteVS2017Dark.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,479 [7         ] INFO  App            : Loaded assembly: ReflectionHelperTypes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=6d662ee35c32032e.
+2023-05-07 14:45:12,479 [7         ] INFO  App            : Loaded assembly: DevExpress.Printing.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,479 [7         ] INFO  App            : Loaded assembly: XpfCoreDynamicTypes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+2023-05-07 14:45:12,479 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Grid.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,479 [7         ] INFO  App            : Loaded assembly: System.Printing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 14:45:12,479 [7         ] INFO  App            : Loaded assembly: System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: PresentationFramework-SystemXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.RichEdit.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: PresentationFramework-SystemData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: PresentationFramework-SystemXmlLinq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: DevExpress.RichEdit.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Grid.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: DevExpress.Office.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: DevExpress.Pdf.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Printing.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Layout.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.DocumentViewer.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,480 [7         ] INFO  App            : Loaded assembly: OFT.Editors, Version=1.0.0.0, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.LayoutControl.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: OFT.Rendering.SharpDX, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Office.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: SharpDX.Direct3D11, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: SharpDX.Direct3D9, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: SharpDX.Direct2D1, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.Images.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpf.Grid.v21.2.Extensions, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: ATAS.Indicators.Technical, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: MoreLinq, Version=3.3.1.0, Culture=neutral, PublicKeyToken=384d532d7e88985d.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: ATAS.Indicators.Other, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: OFT.Sbe, Version=5.8.1.453, Culture=neutral, PublicKeyToken=330427d8594115c7.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.Docs.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.Spreadsheet.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.DataAccess.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.Xpo.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.CodeParser.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.DataVisualization.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.Sparkline.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.Snap.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.XtraCharts.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.Charts.v21.2.Core, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: DevExpress.Pdf.v21.2.Drawing, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: Autofac.Extras.CommonServiceLocator, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da.
+2023-05-07 14:45:12,481 [7         ] INFO  App            : Loaded assembly: WindowsFormsIntegration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+2023-05-07 15:17:34,620 [ST Queue  ] INFO  ST Queue       : Process thread stopped.

@@ -1,0 +1,6 @@
+Version: "1"
+Entity: "Orders"
+Columns: "Id", "ExtId", "UserExtId", "AccountID", "RoutedAccountId", "SecurityId", "Type", "Direction", "TriggerPrice", "Price", "QuantityToFill", "Unfilled", "ExpiryDate", "Route", "OCOGroup", "Comment", "Time", "State"
+StartData
+"82053", "637921248251604622", "0", "CRYPTO02882", , "BTCUSDT@BinanceFutures", "Stop", "Buy", "20200", "0", "1", "0", , , , , "06/29/2022 19:51:47", "Done"
+EndData
